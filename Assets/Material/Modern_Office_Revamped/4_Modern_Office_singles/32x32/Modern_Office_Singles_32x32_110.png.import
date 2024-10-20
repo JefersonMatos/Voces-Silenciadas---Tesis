@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bens6lf2s2jna"
-path="res://.godot/imported/Modern_Office_Singles_32x32_110.png-1feb18b71afa8095f12fc1d40878736f.ctex"
+path="res://.godot/imported/Modern_Office_Singles_32x32_110.png-b1c1acc8c00b0f7b87cb6bba4cad6fc0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Modern_Office_Revamped/4_Modern_Office_singles/32x32/Modern_Office_Singles_32x32_110.png"
-dest_files=["res://.godot/imported/Modern_Office_Singles_32x32_110.png-1feb18b71afa8095f12fc1d40878736f.ctex"]
+source_file="res://Assets/Material/Modern_Office_Revamped/4_Modern_Office_singles/32x32/Modern_Office_Singles_32x32_110.png"
+dest_files=["res://.godot/imported/Modern_Office_Singles_32x32_110.png-b1c1acc8c00b0f7b87cb6bba4cad6fc0.ctex"]
 
 [params]
 
