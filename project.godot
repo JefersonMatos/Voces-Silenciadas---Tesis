@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Voces Silenciadas"
-run/main_scene="res://raiz.tscn"
+run/main_scene="res://personajes.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -21,11 +21,7 @@ window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/size/mode=3
 
-[file_customization]
+[rendering]
 
-folder_colors={
-"res://Assets/Material/3_Animated_objects/": "orange",
-"res://Assets/Material/4_User_Interface_Elements/": "orange",
-"res://Assets/Material/5_Home_Designs/TV_Studio_Designs/": "orange",
-"res://Assets/Material/5_Home_Designs/TV_Studio_Designs/32x32/": "orange"
-}
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

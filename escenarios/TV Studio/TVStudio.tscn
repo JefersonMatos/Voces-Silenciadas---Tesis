@@ -1,0 +1,59 @@
+[gd_scene load_steps=6 format=3 uid="uid://bpdmlhcknkj48"]
+
+[ext_resource type="Texture2D" uid="uid://h1ieg4vrek8f" path="res://escenarios/TV Studio/material/Tv_Studio_Design_layer_1_32x32.png" id="1_q4qsj"]
+[ext_resource type="Texture2D" uid="uid://yvtx2jgcwg0p" path="res://escenarios/TV Studio/material/Tv_Studio_Design_layer_3_32x32.png" id="2_bficb"]
+[ext_resource type="Texture2D" uid="uid://dbcep57ugvsqw" path="res://escenarios/TV Studio/material/Tv_Studio_Design_layer_2_32x32.png" id="3_mh8we"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kd0gi"]
+size = Vector2(2.8, 3.825)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vr3na"]
+size = Vector2(2.7, 2.2)
+
+[node name="TVStudio" type="StaticBody2D"]
+position = Vector2(-896, 168)
+
+[node name="Escenario" type="Sprite2D" parent="."]
+position = Vector2(477, 276)
+scale = Vector2(2, 2)
+texture = ExtResource("1_q4qsj")
+
+[node name="EscenarioCollision" type="CollisionPolygon2D" parent="."]
+position = Vector2(-478, -278)
+scale = Vector2(2, 2)
+polygon = PackedVector2Array(525, 436, 512, 436, 511, 415, 301, 414, 301, 117, 652, 117, 653, 415, 602, 415, 602, 436, 589, 436, 589, 404, 622, 404, 622, 211, 332, 211, 332, 405, 525, 405, 525, 436, 519, 435, 589, 436)
+
+[node name="Mesa" type="Sprite2D" parent="."]
+position = Vector2(476, 278)
+scale = Vector2(2, 2)
+texture = ExtResource("2_bficb")
+
+[node name="MesaCollision" type="CollisionPolygon2D" parent="."]
+position = Vector2(-478, -276)
+scale = Vector2(2, 2)
+polygon = PackedVector2Array(400, 232, 402, 230, 416, 230, 417, 232, 424, 232, 425, 234, 438, 234, 526, 234, 528, 232, 535, 232, 536, 230, 550, 230, 552, 232, 552, 260, 550, 268, 542, 268, 542, 270, 538, 270, 536, 272, 527, 272, 524, 274, 428, 274, 426, 272, 416, 272, 414, 270, 410, 270, 408, 268, 402, 268, 402, 260, 400, 260)
+
+[node name="Elementos" type="Sprite2D" parent="."]
+position = Vector2(477, 271)
+scale = Vector2(2, 2)
+texture = ExtResource("3_mh8we")
+
+[node name="ElementosCollision2" type="CollisionShape2D" parent="."]
+position = Vector2(604, 426)
+scale = Vector2(20, 20)
+shape = SubResource("RectangleShape2D_kd0gi")
+
+[node name="ElementosCollision" type="CollisionShape2D" parent="."]
+position = Vector2(349, 424)
+scale = Vector2(20, 20)
+shape = SubResource("RectangleShape2D_kd0gi")
+
+[node name="ElementosCollision4" type="CollisionShape2D" parent="."]
+position = Vector2(608, 244)
+scale = Vector2(20, 20)
+shape = SubResource("RectangleShape2D_vr3na")
+
+[node name="ElementosCollision3" type="CollisionShape2D" parent="."]
+position = Vector2(345.5, 245)
+scale = Vector2(20, 20)
+shape = SubResource("RectangleShape2D_vr3na")
