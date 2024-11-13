@@ -9,3 +9,8 @@ res://Jugador/jugador.tscn
 res://menús/menu principal/Menú.tscn
 res://jugador.tscn
 res://menús/menu pausa/Menú pausa.tscn
+res://trab_2.tscn
+res://Personajes/Traba2/trab_2.tscn
+res://timeline.dtl
+res://Jefe.dch
+res://raiz.gd

@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://biam7c6bgdq44"]
 
-[ext_resource type="Script" path="res://Jugador/jugar.gd" id="2_58mry"]
+[ext_resource type="Script" path="res://menús/jugar.gd" id="2_58mry"]
 [ext_resource type="FontFile" uid="uid://ke5wbp5jdgy4" path="res://menús/nasalization-rg.otf" id="3_p160y"]
 
 [sub_resource type="Shortcut" id="Shortcut_7xhir"]

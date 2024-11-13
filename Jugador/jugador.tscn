@@ -1,6 +1,6 @@
-[gd_scene load_steps=272 format=3 uid="uid://dxk2eg7pcb3tj"]
+[gd_scene load_steps=276 format=3 uid="uid://dxk2eg7pcb3tj"]
 
-[ext_resource type="Script" path="res://prota.gd" id="1_6h7m3"]
+[ext_resource type="Script" path="res://Jugador/prota.gd" id="1_6h7m3"]
 [ext_resource type="Texture2D" uid="uid://b7rlkslxh1ptx" path="res://Jugador/material/Caminar frente.png" id="2_iqp1k"]
 [ext_resource type="Texture2D" uid="uid://qxyn14uhcvo3" path="res://Jugador/material/Caminar atras.png" id="3_njbxq"]
 [ext_resource type="Texture2D" uid="uid://m1seuklmpj2i" path="res://Jugador/material/Caminar derecha.png" id="4_w1ws8"]
@@ -29,6 +29,9 @@
 [ext_resource type="Texture2D" uid="uid://cpuuflehmj67g" path="res://Jugador/material/Recoger izquierda.png" id="27_tv8gm"]
 [ext_resource type="Texture2D" uid="uid://dkvge72xvxig2" path="res://Jugador/material/Sentado derecha.png" id="28_easwk"]
 [ext_resource type="Texture2D" uid="uid://ctlf0xmhsh702" path="res://Jugador/material/Sentado izquierda.png" id="29_8wywp"]
+[ext_resource type="Script" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="30_lj1ib"]
+[ext_resource type="Script" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd" id="31_yo5yv"]
+[ext_resource type="Script" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="32_fltj2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yra1s"]
 atlas = ExtResource("2_iqp1k")
@@ -1856,6 +1859,12 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1lcwv"]
 size = Vector2(44, 66.6667)
 
+[sub_resource type="Resource" id="Resource_obr4v"]
+script = ExtResource("32_fltj2")
+duration = 1.0
+transition = 0
+ease = 2
+
 [node name="Jugador" type="CharacterBody2D"]
 scale = Vector2(1.5, 1.5)
 script = ExtResource("1_6h7m3")
@@ -1873,8 +1882,16 @@ visible = false
 shape = SubResource("RectangleShape2D_1lcwv")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-scale = Vector2(1.5, 1.5)
-position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
+
+[node name="PhantomCameraHost" type="Node" parent="Camera2D"]
+process_priority = 300
+process_physics_priority = 300
+script = ExtResource("30_lj1ib")
+
+[node name="PhantomCamera2D" type="Node2D" parent="."]
+script = ExtResource("31_yo5yv")
+follow_mode = 2
+tween_resource = SubResource("Resource_obr4v")

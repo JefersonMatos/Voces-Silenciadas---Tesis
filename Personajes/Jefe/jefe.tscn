@@ -742,10 +742,10 @@ position = Vector2(994, 595)
 scale = Vector2(1.5, 1.5)
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
-position = Vector2(-123, 0)
+position = Vector2(-0.666664, 2)
 scale = Vector2(1.5, 1.5)
 sprite_frames = SubResource("SpriteFrames_42a74")
-animation = &"caminar atras"
+animation = &"idle frente"
 autoplay = "idle frente"
 
 [node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="."]
