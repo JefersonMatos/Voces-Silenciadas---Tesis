@@ -10,12 +10,6 @@
 
 [node name="raiz" type="Node2D"]
 
-[node name="Personajes" type="Node" parent="."]
-
-[node name="Jugador" parent="Personajes" instance=ExtResource("1_alef4")]
-
-[node name="Jefe" parent="Personajes" instance=ExtResource("2_31dr3")]
-
 [node name="Escenarios" type="Node" parent="."]
 
 [node name="Zona de produccion" parent="Escenarios" instance=ExtResource("1_c58nd")]
@@ -24,7 +18,11 @@
 
 [node name="Sala conserje" parent="Escenarios" instance=ExtResource("4_b8i5a")]
 
-[node name="TVStudio" parent="Escenarios" instance=ExtResource("6_h2qoe")]
+[node name="TVStudio" type="Node" parent="Escenarios"]
 
-[node name="Control" parent="Escenarios" instance=ExtResource("7_blos7")]
-metadata/_edit_use_anchors_ = true
+[node name="Personajes" type="Node" parent="Escenarios"]
+
+[node name="Jugador" parent="Escenarios/Personajes" instance=ExtResource("1_alef4")]
+position = Vector2(804, 591)
+
+[node name="Jefe" parent="Escenarios/Personajes" instance=ExtResource("2_31dr3")]
