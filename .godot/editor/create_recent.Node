@@ -1,3 +1,10 @@
+ColorRect
+Label
+MenuButton
+Button
+HBoxContainer
+VBoxContainer
+Control
 Node
 CollisionShape2D
 CharacterBody2D

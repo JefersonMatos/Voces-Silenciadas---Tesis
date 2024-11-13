@@ -1,0 +1,70 @@
+[gd_scene load_steps=6 format=3 uid="uid://bukp82yo8vbo0"]
+
+[ext_resource type="Texture2D" uid="uid://cdmrnvmm07nql" path="res://menús/menu principal/MENU FONDO.png" id="1_vogko"]
+[ext_resource type="Script" path="res://Jugador/jugar.gd" id="2_rxfm6"]
+[ext_resource type="FontFile" uid="uid://ke5wbp5jdgy4" path="res://menús/nasalization-rg.otf" id="3_rmi1i"]
+
+[sub_resource type="Shortcut" id="Shortcut_7xhir"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_hbhk3"]
+font = ExtResource("3_rmi1i")
+font_size = 70
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MenuFondo" type="Sprite2D" parent="."]
+modulate = Color(0.165656, 0.165656, 0.165656, 1)
+position = Vector2(958, 541)
+scale = Vector2(1.06808, 1.05273)
+texture = ExtResource("1_vogko")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -250.0
+offset_right = 250.0
+offset_bottom = 250.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Jugar" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_7xhir")
+text = "Jugar"
+script = ExtResource("2_rxfm6")
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Configuración"
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Salir"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -78.0
+offset_top = 157.0
+offset_right = 78.0
+offset_bottom = 180.0
+grow_horizontal = 2
+text = "VOCES SILENCIADAS"
+label_settings = SubResource("LabelSettings_hbhk3")
+
+[connection signal="pressed" from="VBoxContainer/Jugar" to="VBoxContainer/Jugar" method="_on_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="VBoxContainer/Jugar" method="_on_button_2_pressed"]
