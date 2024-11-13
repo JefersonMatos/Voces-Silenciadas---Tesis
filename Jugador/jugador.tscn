@@ -1857,12 +1857,10 @@ animations = [{
 size = Vector2(44, 66.6667)
 
 [node name="Jugador" type="CharacterBody2D"]
-position = Vector2(980, 598)
 scale = Vector2(1.5, 1.5)
 script = ExtResource("1_6h7m3")
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
-position = Vector2(126.667, -4)
 scale = Vector2(1.5, 1.5)
 sprite_frames = SubResource("SpriteFrames_txcvv")
 animation = &"caminar arriba"
@@ -1871,6 +1869,11 @@ frame = 5
 frame_progress = 0.463751
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
-position = Vector2(128, -0.666687)
 shape = SubResource("RectangleShape2D_1lcwv")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+scale = Vector2(1.5, 1.5)
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
