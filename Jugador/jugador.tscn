@@ -1869,6 +1869,7 @@ frame = 5
 frame_progress = 0.463751
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 shape = SubResource("RectangleShape2D_1lcwv")
 
 [node name="Camera2D" type="Camera2D" parent="."]

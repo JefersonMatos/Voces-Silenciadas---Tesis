@@ -18,11 +18,18 @@
 
 [node name="Sala conserje" parent="Escenarios" instance=ExtResource("4_b8i5a")]
 
-[node name="TVStudio" type="Node" parent="Escenarios"]
+[node name="TVStudio" parent="Escenarios" instance=ExtResource("6_h2qoe")]
 
-[node name="Personajes" type="Node" parent="Escenarios"]
+[node name="Control" parent="Escenarios" instance=ExtResource("7_blos7")]
+offset_left = 2137.0
+offset_top = 76.0
+offset_right = 2137.0
+offset_bottom = 76.0
+metadata/_edit_use_anchors_ = true
 
-[node name="Jugador" parent="Escenarios/Personajes" instance=ExtResource("1_alef4")]
-position = Vector2(804, 591)
+[node name="Personajes" type="Node" parent="."]
 
-[node name="Jefe" parent="Escenarios/Personajes" instance=ExtResource("2_31dr3")]
+[node name="Jugador" parent="Personajes" instance=ExtResource("1_alef4")]
+position = Vector2(980, 598)
+
+[node name="Jefe" parent="Personajes" instance=ExtResource("2_31dr3")]
