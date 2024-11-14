@@ -1,12 +1,13 @@
-[gd_scene load_steps=10 format=3 uid="uid://cq45cjcq3lxa5"]
+[gd_scene load_steps=11 format=3 uid="uid://cq45cjcq3lxa5"]
 
 [ext_resource type="PackedScene" uid="uid://dxk2eg7pcb3tj" path="res://Jugador/jugador.tscn" id="1_alef4"]
 [ext_resource type="PackedScene" uid="uid://hcpwom7roipy" path="res://escenarios/Zona de colaboradores/zona_de_produccion.tscn" id="1_c58nd"]
 [ext_resource type="Script" path="res://raiz.gd" id="1_xex2q"]
 [ext_resource type="PackedScene" uid="uid://c345cylv5v5qi" path="res://Personajes/Jefe/jefe.tscn" id="2_31dr3"]
-[ext_resource type="PackedScene" uid="uid://b00htlqfa3mnv" path="res://escenarios/comedor/material/comedor.tscn" id="2_rr34w"]
+[ext_resource type="PackedScene" uid="uid://b00htlqfa3mnv" path="res://escenarios/comedor/comedor.tscn" id="2_rr34w"]
 [ext_resource type="PackedScene" uid="uid://d3wwx4d5lgawt" path="res://escenarios/Sala conserje/sala_conserje.tscn" id="4_b8i5a"]
 [ext_resource type="PackedScene" uid="uid://bukp82yo8vbo0" path="res://menús/menu principal/Menú.tscn" id="5_vtb4a"]
+[ext_resource type="PackedScene" uid="uid://ok71dyq8ebtg" path="res://escenarios/Cuarto de vigilancia/cuarto_vigilancia.tscn" id="6_721na"]
 [ext_resource type="PackedScene" uid="uid://bpdmlhcknkj48" path="res://escenarios/TV Studio/TVStudio.tscn" id="6_h2qoe"]
 [ext_resource type="PackedScene" uid="uid://biam7c6bgdq44" path="res://menús/menu pausa/Menú pausa.tscn" id="7_blos7"]
 
@@ -22,6 +23,8 @@ script = ExtResource("1_xex2q")
 [node name="Sala conserje" parent="Escenarios" instance=ExtResource("4_b8i5a")]
 
 [node name="TVStudio" parent="Escenarios" instance=ExtResource("6_h2qoe")]
+
+[node name="CuartoVigilancia" parent="Escenarios" instance=ExtResource("6_721na")]
 
 [node name="Control2" parent="Escenarios" instance=ExtResource("5_vtb4a")]
 offset_left = 33.0

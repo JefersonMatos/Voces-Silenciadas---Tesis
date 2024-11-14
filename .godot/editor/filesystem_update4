@@ -1,16 +1,4 @@
+res://escenarios/Cuarto de vigilancia/cuarto_vigilancia.tscn
 res://raiz.tscn
-res://personajes.tscn
-res://escenarios/comedor/material/comedor.tscn
-res://escenarios/TV Studio/TVStudio.tscn
-res://escenarios/Sala conserje/sala_conserje.tscn
 res://escenarios/Zona de colaboradores/zona_de_produccion.tscn
-res://Personajes/Jefe/jefe.tscn
-res://Jugador/jugador.tscn
-res://menús/menu principal/Menú.tscn
-res://jugador.tscn
-res://menús/menu pausa/Menú pausa.tscn
-res://trab_2.tscn
-res://Personajes/Traba2/trab_2.tscn
-res://timeline.dtl
-res://Jefe.dch
-res://raiz.gd
+res://escenarios/TV Studio/TVStudio.tscn
