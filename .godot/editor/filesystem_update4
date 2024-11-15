@@ -1,4 +1,8 @@
-res://escenarios/Cuarto de vigilancia/cuarto_vigilancia.tscn
 res://raiz.tscn
 res://escenarios/Zona de colaboradores/zona_de_produccion.tscn
 res://escenarios/TV Studio/TVStudio.tscn
+res://escenarios/Cuarto de vigilancia/cuarto_vigilancia.tscn
+res://escenarios/comedor/comedor.tscn
+res://escenarios/Sala conserje/sala_conserje.tscn
+res://escenarios/Sala de juntas/sala_juntas.tscn
+res://escenarios/Oficina del Jefe/oficina_jefe.tscn

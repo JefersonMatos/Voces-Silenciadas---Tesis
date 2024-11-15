@@ -26,13 +26,13 @@ script = ExtResource("1_xex2q")
 
 [node name="CuartoVigilancia" parent="Escenarios" instance=ExtResource("6_721na")]
 
-[node name="Control2" parent="Escenarios" instance=ExtResource("5_vtb4a")]
+[node name="Menu" parent="Escenarios" instance=ExtResource("5_vtb4a")]
 offset_left = 33.0
 offset_top = -3471.0
 offset_right = 33.0
 offset_bottom = -3471.0
 
-[node name="Control" parent="Escenarios" instance=ExtResource("7_blos7")]
+[node name="MenuPausa" parent="Escenarios" instance=ExtResource("7_blos7")]
 offset_left = 24.0
 offset_top = -4639.0
 offset_right = 24.0

@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731619696
+::res://::1731627946
 icon.svg::CompressedTexture2D::1011551773841215470::1731447695::1731513226::1::::<><>::
 Jefe.dch::Resource/DialogicCharacter::-1::1731513516::0::1::::<><>::
 raiz.gd::GDScript::-1::1731513147::0::1::::<>Node2D<>::
-raiz.tscn::PackedScene::5957555378397860754::1731613066::0::1::::<><>::uid://dxk2eg7pcb3tj::::res://Jugador/jugador.tscn<>uid://hcpwom7roipy::::res://escenarios/Zona de colaboradores/zona_de_produccion.tscn<>res://raiz.gd<>uid://c345cylv5v5qi::::res://Personajes/Jefe/jefe.tscn<>uid://b00htlqfa3mnv::::res://escenarios/comedor/comedor.tscn<>uid://d3wwx4d5lgawt::::res://escenarios/Sala conserje/sala_conserje.tscn<>uid://bukp82yo8vbo0::::res://menús/menu principal/Menú.tscn<>uid://bpdmlhcknkj48::::res://escenarios/TV Studio/TVStudio.tscn<>uid://biam7c6bgdq44::::res://menús/menu pausa/Menú pausa.tscn
+raiz.tscn::PackedScene::5957555378397860754::1731627869::0::1::::<><>::uid://dxk2eg7pcb3tj::::res://Jugador/jugador.tscn<>uid://hcpwom7roipy::::res://escenarios/Zona de colaboradores/zona_de_produccion.tscn<>res://raiz.gd<>uid://c345cylv5v5qi::::res://Personajes/Jefe/jefe.tscn<>uid://b00htlqfa3mnv::::res://escenarios/comedor/comedor.tscn<>uid://d3wwx4d5lgawt::::res://escenarios/Sala conserje/sala_conserje.tscn<>uid://bukp82yo8vbo0::::res://menús/menu principal/Menú.tscn<>uid://ok71dyq8ebtg::::res://escenarios/Cuarto de vigilancia/cuarto_vigilancia.tscn<>uid://bpdmlhcknkj48::::res://escenarios/TV Studio/TVStudio.tscn<>uid://biam7c6bgdq44::::res://menús/menu pausa/Menú pausa.tscn
 timeline.dtl::Resource/DialogicTimeline::-1::1731521565::0::1::::<><>::
 ::res://addons/::1731513147
 ::res://addons/dialogic/::1731513147
@@ -755,12 +755,12 @@ phantom_camera_noise_3d.gd::GDScript::-1::1731513147::0::1::::PhantomCameraNoise
 tween_resource.gd::GDScript::-1::1731513147::0::1::::PhantomCameraTween<>Resource<>res://addons/phantom_camera/icons/phantom_camera_tween.svg::
 ::res://addons/phantom_camera/scripts/singletons/::1731513147
 phantom_camera_manager.gd::GDScript::-1::1731513147::0::1::::<>Node<>::
-::res://escenarios/::1731613343
+::res://escenarios/::1731630260
 3_Bathroom_32x32.png::CompressedTexture2D::1807643091819722184::1729484758::1731513226::1::::<><>::
 18_Jail_32x32.png::CompressedTexture2D::2801828459798204022::1729573192::1731613343::1::::<><>::
 Room_Builder_32x32.png::CompressedTexture2D::389003241882792044::1729573192::1731513230::1::::<><>::
-::res://escenarios/comedor/::1731613066
-comedor.tscn::PackedScene::4193210770230977535::1731549589::0::1::::<><>::uid://c5x1ninpkrltf::::res://escenarios/Sala conserje/material/Room_Builder_Office_32x32.png<>uid://fso3drdrs0u7::::res://escenarios/Room_Builder_32x32.png<>uid://rho8vq086tf2::::res://escenarios/comedor/material/B-C-D-E_Kitchen_01.png<>uid://j46k01ffv118::::res://escenarios/comedor/material/B-C-D-E_Kitchen_02.png<>uid://cgxy67d487y84::::res://escenarios/comedor/material/Characters_03.png<>uid://p8skkx4rxcq2::::res://escenarios/comedor/material/B-C-D-E_Generic_01.png
+::res://escenarios/comedor/::1731627641
+comedor.tscn::PackedScene::4193210770230977535::1731627641::0::1::::<><>::uid://c5x1ninpkrltf::::res://escenarios/Sala conserje/material/Room_Builder_Office_32x32.png<>uid://fso3drdrs0u7::::res://escenarios/Room_Builder_32x32.png<>uid://rho8vq086tf2::::res://escenarios/comedor/material/B-C-D-E_Kitchen_01.png<>uid://j46k01ffv118::::res://escenarios/comedor/material/B-C-D-E_Kitchen_02.png<>uid://bf6hx8ojrlvmc::::res://escenarios/18_Jail_32x32.png<>uid://p8skkx4rxcq2::::res://escenarios/comedor/material/B-C-D-E_Generic_01.png
 ::res://escenarios/comedor/material/::1731613066
 A5_Walls_Floors.png::CompressedTexture2D::8079577376959335908::1731447695::1731513225::1::::<><>::
 B-C-D-E_Art.png::CompressedTexture2D::6568623883954819630::1731447695::1731513225::1::::<><>::
@@ -774,11 +774,38 @@ B-C-D-E_Kitchen_01.png::CompressedTexture2D::1208571084111009977::1731447695::17
 B-C-D-E_Kitchen_02.png::CompressedTexture2D::693467985808217877::1731447695::1731513225::1::::<><>::
 Characters_03.png::CompressedTexture2D::5242969371739849039::1731447695::1731513225::1::::<><>::
 Room_Builder_Office_32x32.png::CompressedTexture2D::3285223771454236460::1731447695::1731513225::1::::<><>::
-::res://escenarios/Cuarto de vigilancia/::1731619624
-cuarto_vigilancia.tscn::PackedScene::1005277158299686592::1731619624::0::1::::<><>::uid://bf6hx8ojrlvmc::::res://escenarios/18_Jail_32x32.png<>uid://fso3drdrs0u7::::res://escenarios/Room_Builder_32x32.png
+::res://escenarios/Cuarto de vigilancia/::1731626685
+cuarto_vigilancia.tscn::PackedScene::1005277158299686592::1731626685::0::1::::<><>::uid://bf6hx8ojrlvmc::::res://escenarios/18_Jail_32x32.png<>uid://fso3drdrs0u7::::res://escenarios/Room_Builder_32x32.png
 ::res://escenarios/Cuarto de vigilancia/Material/::1731612989
-::res://escenarios/Sala conserje/::1731612925
-sala_conserje.tscn::PackedScene::9171344359823766239::1731612925::0::1::::<><>::uid://bm2nfj2j5tpxk::::res://escenarios/comedor/material/Room_Builder_Office_32x32.png<>uid://fso3drdrs0u7::::res://escenarios/Room_Builder_32x32.png<>uid://lugkfpokokno::::res://escenarios/Sala conserje/material/Tileset_32x32_16.png<>uid://00vu88a6r0qm::::res://escenarios/3_Bathroom_32x32.png
+::res://escenarios/Materiales/::1731630281
+1_Generic_32x32.png::CompressedTexture2D::3638623357295313697::1729573192::1731630296::1::::<><>::
+2_LivingRoom_32x32.png::CompressedTexture2D::6491156023297423806::1729573192::1731630296::1::::<><>::
+3_Bathroom_32x32.png::CompressedTexture2D::7030163669527472177::1729573192::1731630296::1::::<><>::
+4_Bedroom_32x32.png::CompressedTexture2D::1963391441552697011::1729573192::1731630296::1::::<><>::
+5_Classroom_and_library_32x32.png::CompressedTexture2D::8567366258160385462::1729573192::1731630296::1::::<><>::
+6_Music_and_sport_32x32.png::CompressedTexture2D::6256253452530430152::1729573192::1731630296::1::::<><>::
+7_Art_32x32.png::CompressedTexture2D::9144253209769633075::1729573192::1731630295::1::::<><>::
+8_Gym_32x32.png::CompressedTexture2D::6537280040375429635::1729573192::1731630295::1::::<><>::
+9_Fishing_32x32.png::CompressedTexture2D::2086222808762838014::1729573192::1731630295::1::::<><>::
+10_Birthday_party_32x32.png::CompressedTexture2D::8416744855617048674::1729573192::1731630295::1::::<><>::
+11_Halloween_32x32.png::CompressedTexture2D::9027927236232155415::1729573192::1731630296::1::::<><>::
+12_Kitchen_32x32.png::CompressedTexture2D::1045492219132057337::1729573192::1731630295::1::::<><>::
+13_Conference_Hall_32x32.png::CompressedTexture2D::7124078299587197596::1729573192::1731630295::1::::<><>::
+14_Basement_32x32.png::CompressedTexture2D::6370931024605053593::1729573192::1731630295::1::::<><>::
+15_Christmas_32x32.png::CompressedTexture2D::1687356814221794150::1729573192::1731630295::1::::<><>::
+16_Grocery_store_32x32.png::CompressedTexture2D::6249294640166928315::1729573192::1731630295::1::::<><>::
+17_Visibile_Upstairs_System_32x32.png::CompressedTexture2D::9175779933964101090::1729573192::1731630295::1::::<><>::
+18_Jail_32x32.png::CompressedTexture2D::8815375524023459989::1729573192::1731630295::1::::<><>::
+19_Hospital_32x32.png::CompressedTexture2D::6523638321379663021::1729573192::1731630295::1::::<><>::
+20_Japanese_interiors_32x32.png::CompressedTexture2D::4872398199981569011::1729573192::1731630295::1::::<><>::
+21_Clothing_Store_32x32.png::CompressedTexture2D::4357138058924694714::1729573192::1731630295::1::::<><>::
+22_Museum_32x32.png::CompressedTexture2D::7808206293692176955::1729573192::1731630295::1::::<><>::
+23_Television_and_Film_Studio_32x32.png::CompressedTexture2D::7860742323582541872::1729573192::1731630295::1::::<><>::
+24_Ice_Cream_Shop_32x32.png::CompressedTexture2D::2176084446177962657::1729573192::1731630295::1::::<><>::
+25_Shooting_Range_32x32.png::CompressedTexture2D::7465805210045368462::1729573192::1731630295::1::::<><>::
+26_Condominium_32x32.png::CompressedTexture2D::4768046009405193537::1729573192::1731630295::1::::<><>::
+::res://escenarios/Sala conserje/::1731627764
+sala_conserje.tscn::PackedScene::9171344359823766239::1731627764::0::1::::<><>::uid://bm2nfj2j5tpxk::::res://escenarios/comedor/material/Room_Builder_Office_32x32.png<>uid://fso3drdrs0u7::::res://escenarios/Room_Builder_32x32.png<>uid://lugkfpokokno::::res://escenarios/Sala conserje/material/Tileset_32x32_16.png<>uid://00vu88a6r0qm::::res://escenarios/3_Bathroom_32x32.png
 ::res://escenarios/Sala conserje/material/::1731513226
 3_Bathroom_32x32.png::CompressedTexture2D::9009754581154279369::1731447695::1731513225::1::::<><>::
 Bathroom_Singles_32x32_82.png::CompressedTexture2D::1719587038975850300::1731447695::1731513225::1::::<><>::
@@ -796,15 +823,19 @@ Modern_Office_Black_Shadow_32x32.png::CompressedTexture2D::6171211011334811057::
 Modern_Office_MV_1_TILESETS_B-C-D-E.png::CompressedTexture2D::1346673077037826839::1731447695::1731513226::1::::<><>::
 Room_Builder_Office_32x32.png::CompressedTexture2D::6927589662968075007::1731447695::1731513225::1::::<><>::
 Tileset_32x32_16.png::CompressedTexture2D::813747281434038016::1731447695::1731513225::1::::<><>::
-::res://escenarios/TV Studio/::1731447695
-TVStudio.tscn::PackedScene::3446195090397108479::1731447695::0::1::::<><>::uid://h1ieg4vrek8f::::res://escenarios/TV Studio/material/Tv_Studio_Design_layer_1_32x32.png<>uid://yvtx2jgcwg0p::::res://escenarios/TV Studio/material/Tv_Studio_Design_layer_3_32x32.png<>uid://dbcep57ugvsqw::::res://escenarios/TV Studio/material/Tv_Studio_Design_layer_2_32x32.png
+::res://escenarios/Sala de juntas/::1731629021
+sala_juntas.tscn::PackedScene::1358799487675363905::1731629021::0::1::::<><>::uid://fso3drdrs0u7::::res://escenarios/Room_Builder_32x32.png
+::res://escenarios/Sala de juntas/Materiales/::1731629108
+23_Television_and_Film_Studio_32x32.png::CompressedTexture2D::6435349700227999677::1729573192::1731629108::1::::<><>::
+::res://escenarios/TV Studio/::1731626777
+TVStudio.tscn::PackedScene::3446195090397108479::1731626777::0::1::::<><>::uid://h1ieg4vrek8f::::res://escenarios/TV Studio/material/Tv_Studio_Design_layer_1_32x32.png<>uid://yvtx2jgcwg0p::::res://escenarios/TV Studio/material/Tv_Studio_Design_layer_3_32x32.png<>uid://dbcep57ugvsqw::::res://escenarios/TV Studio/material/Tv_Studio_Design_layer_2_32x32.png<>uid://fso3drdrs0u7::::res://escenarios/Room_Builder_32x32.png
 ::res://escenarios/TV Studio/material/::1731513225
 Tv_Studio_Design_layer_1_32x32.png::CompressedTexture2D::545488967105992607::1731447695::1731513225::1::::<><>::
 Tv_Studio_Design_layer_2_32x32.png::CompressedTexture2D::7233850931156913286::1731447695::1731513225::1::::<><>::
 Tv_Studio_Design_layer_3_32x32.png::CompressedTexture2D::1729080308580259273::1731447695::1731513225::1::::<><>::
 Tv_Studio_Design_preview_32x32.png::CompressedTexture2D::3139451445592856266::1731447695::1731513225::1::::<><>::
-::res://escenarios/Zona de colaboradores/::1731549980
-zona_de_produccion.tscn::PackedScene::496401458673517238::1731549980::0::1::::<><>::uid://fso3drdrs0u7::::res://escenarios/Room_Builder_32x32.png<>uid://c5x1ninpkrltf::::res://escenarios/Sala conserje/material/Room_Builder_Office_32x32.png<>uid://b3g7pkajvmm3o::::res://escenarios/Sala conserje/material/Interiors_free_32x32.png<>uid://ct6m7c7oltca8::::res://escenarios/Sala conserje/material/Modern_Office_Black_Shadow_32x32.png<>uid://tglrkg7nkkcl::::res://escenarios/Sala conserje/material/Modern_Office_MV_1_TILESETS_B-C-D-E.png
+::res://escenarios/Zona de colaboradores/::1731628071
+zona_de_produccion.tscn::PackedScene::496401458673517238::1731628071::0::1::::<><>::uid://fso3drdrs0u7::::res://escenarios/Room_Builder_32x32.png<>uid://c5x1ninpkrltf::::res://escenarios/Sala conserje/material/Room_Builder_Office_32x32.png<>uid://b3g7pkajvmm3o::::res://escenarios/Sala conserje/material/Interiors_free_32x32.png<>uid://ct6m7c7oltca8::::res://escenarios/Sala conserje/material/Modern_Office_Black_Shadow_32x32.png<>uid://bf6hx8ojrlvmc::::res://escenarios/18_Jail_32x32.png<>uid://tglrkg7nkkcl::::res://escenarios/Sala conserje/material/Modern_Office_MV_1_TILESETS_B-C-D-E.png
 ::res://Jugador/::1731523564
 jugador.tscn::PackedScene::8795896099533078407::1731523564::0::1::::<><>::res://Jugador/prota.gd<>uid://b7rlkslxh1ptx::::res://Jugador/material/Caminar frente.png<>uid://qxyn14uhcvo3::::res://Jugador/material/Caminar atras.png<>uid://m1seuklmpj2i::::res://Jugador/material/Caminar derecha.png<>uid://ckk52wpnxpt8j::::res://Jugador/material/Caminar izquierda.png<>uid://b4ld45m4bd7k8::::res://Jugador/material/Cell guardar.png<>uid://cw4pjm6ll1t2l::::res://Jugador/material/Cell Sacar.png<>uid://iwwc0smyxh17::::res://Jugador/material/Correr atras.png<>uid://b0ketiofjmgr4::::res://Jugador/material/Correr derecha.png<>uid://bwr71q40lbkm4::::res://Jugador/material/Correr frente.png<>uid://b3b8e18dj54u0::::res://Jugador/material/Correr izquierda.png<>uid://lbu84jcnandy::::res://Jugador/material/IDLE atras.png<>uid://61sq4x88nvsa::::res://Jugador/material/IDLE derecha.png<>uid://d3vlbyg16eugr::::res://Jugador/material/IDLE frente.png<>uid://bh8vp4sjy7eq0::::res://Jugador/material/IDLE izquierda.png<>uid://dtislra1p45au::::res://Jugador/material/Lamento atras.png<>uid://btvkexwkeaj67::::res://Jugador/material/Lamento derecha.png<>uid://dt2q8ur1ujv68::::res://Jugador/material/Lamento frente.png<>uid://ct5t75t1y3db0::::res://Jugador/material/Lamento izquierda.png<>uid://mqww1v1tkhqs::::res://Jugador/material/Objeto atras.png<>uid://dn06fdycttarn::::res://Jugador/material/Objeto derecha.png<>uid://du4ajclkf1fin::::res://Jugador/material/Objeto frente.png<>uid://ea3va4k2hwgc::::res://Jugador/material/Objeto izquierda.png<>uid://d2noettl35djr::::res://Jugador/material/Recoger atras.png<>uid://cblkppewmekxl::::res://Jugador/material/Recoger derecha.png<>uid://c8a4fsbf0erty::::res://Jugador/material/Recoger frente.png<>uid://cpuuflehmj67g::::res://Jugador/material/Recoger izquierda.png<>uid://dkvge72xvxig2::::res://Jugador/material/Sentado derecha.png<>uid://ctlf0xmhsh702::::res://Jugador/material/Sentado izquierda.png<>res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd<>res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd<>res://addons/phantom_camera/scripts/resources/tween_resource.gd
 prota.gd::GDScript::-1::1731513147::0::1::::<>CharacterBody2D<>::

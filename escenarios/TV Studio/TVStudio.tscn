@@ -14826,7 +14826,7 @@ texture = ExtResource("2_bficb")
 sources/0 = SubResource("TileSetAtlasSource_nnpax")
 
 [node name="TVStudio" type="StaticBody2D"]
-position = Vector2(-4, -44)
+position = Vector2(-4, 20)
 
 [node name="Fondo" type="TileMapLayer" parent="."]
 position = Vector2(3, 12)
