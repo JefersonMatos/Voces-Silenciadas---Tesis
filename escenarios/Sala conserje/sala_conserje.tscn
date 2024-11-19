@@ -24693,7 +24693,7 @@ tile_map_data = PackedByteArray("AADq/97/AQBrAKgAAADq/9//AQBrAKkAAADq/+D/AQBrAKo
 tile_set = SubResource("TileSet_e1dif")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(-733, -7, 35, -6, 34, -222, -29, -221, -29, -29, -669, -30, -670, -970, -26, -975, -28, -350, 35, -350, 33, -1117, -734, -1117)
+polygon = PackedVector2Array(-733, -7, 35, -6, 34, -222, -29, -221, -29, -29, -669, -30, -670, -970, -26, -975, -23, -400, 33, -399, 33, -1117, -734, -1117)
 
 [node name="Muebles" type="TileMapLayer" parent="."]
 position = Vector2(3, -15)
@@ -24712,7 +24712,7 @@ position = Vector2(-543, -62)
 shape = SubResource("CircleShape2D_ditnq")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(-391, -376)
+position = Vector2(-392, -404)
 rotation = 1.5708
 shape = SubResource("CapsuleShape2D_rv3pk")
 

@@ -4,7 +4,7 @@ extends CharacterBody2D
 @onready var _animation_player = $AnimatedSprite2D3
 
 #Creamos la variable de velocidad
-var move_speed : int = 200
+var move_speed : int = 500
 
 
 func _physics_process(_delta: float) -> void:
@@ -29,13 +29,13 @@ func _physics_process(_delta: float) -> void:
 			_animation_player.play("idle frente")
 	
 	#animaciones de caminar en cuatro direcciones
-	if velocity.x == 200:
+	if velocity.x == move_speed:
 		_animation_player.play("caminar derecha")
-	elif velocity.x == -200:
+	elif velocity.x == -move_speed:
 		_animation_player.play("caminar izquierda")
-	if velocity.y == 200:
+	if velocity.y == move_speed:
 		_animation_player.play("caminar abajo")
-	elif velocity.y == -200:
+	elif velocity.y == -move_speed:
 		_animation_player.play("caminar arriba")
 	
 	

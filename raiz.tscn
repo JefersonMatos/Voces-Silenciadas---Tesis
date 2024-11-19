@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://cq45cjcq3lxa5"]
+[gd_scene load_steps=16 format=3 uid="uid://cq45cjcq3lxa5"]
 
 [ext_resource type="PackedScene" uid="uid://dxk2eg7pcb3tj" path="res://Jugador/jugador.tscn" id="1_alef4"]
 [ext_resource type="PackedScene" uid="uid://hcpwom7roipy" path="res://escenarios/Zona de colaboradores/zona_de_produccion.tscn" id="1_c58nd"]
@@ -10,6 +10,11 @@
 [ext_resource type="PackedScene" uid="uid://ok71dyq8ebtg" path="res://escenarios/Cuarto de vigilancia/cuarto_vigilancia.tscn" id="6_721na"]
 [ext_resource type="PackedScene" uid="uid://bpdmlhcknkj48" path="res://escenarios/TV Studio/TVStudio.tscn" id="6_h2qoe"]
 [ext_resource type="PackedScene" uid="uid://biam7c6bgdq44" path="res://menús/menu pausa/Menú pausa.tscn" id="7_blos7"]
+[ext_resource type="PackedScene" uid="uid://bcmiq3fhmcdch" path="res://escenarios/Oficina del jefe/oficina_jefe.tscn" id="7_viru4"]
+[ext_resource type="PackedScene" uid="uid://ctbdlj6gw15cy" path="res://Personajes/Conserje/conserje.tscn" id="12_41ucn"]
+[ext_resource type="PackedScene" uid="uid://w7fd3n0uef4w" path="res://Personajes/Seguridad/seguridad.tscn" id="13_1s0ta"]
+[ext_resource type="PackedScene" uid="uid://c1jiu4l6ujrvq" path="res://Personajes/Traba1/trab_1.tscn" id="14_jdid2"]
+[ext_resource type="PackedScene" uid="uid://nsluvm6heled" path="res://Personajes/Traba2/trab_2.tscn" id="15_denuc"]
 
 [node name="raiz" type="Node2D"]
 script = ExtResource("1_xex2q")
@@ -17,20 +22,29 @@ script = ExtResource("1_xex2q")
 [node name="Escenarios" type="Node" parent="."]
 
 [node name="Zona de produccion" parent="Escenarios" instance=ExtResource("1_c58nd")]
+metadata/_edit_lock_ = true
 
 [node name="Comedor" parent="Escenarios" instance=ExtResource("2_rr34w")]
+metadata/_edit_lock_ = true
 
 [node name="Sala conserje" parent="Escenarios" instance=ExtResource("4_b8i5a")]
+metadata/_edit_lock_ = true
 
 [node name="TVStudio" parent="Escenarios" instance=ExtResource("6_h2qoe")]
+metadata/_edit_lock_ = true
 
 [node name="CuartoVigilancia" parent="Escenarios" instance=ExtResource("6_721na")]
+metadata/_edit_lock_ = true
+
+[node name="OficinaJefe" parent="Escenarios" instance=ExtResource("7_viru4")]
+metadata/_edit_lock_ = true
 
 [node name="Menu" parent="Escenarios" instance=ExtResource("5_vtb4a")]
 offset_left = 33.0
 offset_top = -3471.0
 offset_right = 33.0
 offset_bottom = -3471.0
+metadata/_edit_lock_ = true
 
 [node name="MenuPausa" parent="Escenarios" instance=ExtResource("7_blos7")]
 offset_left = 24.0
@@ -38,11 +52,26 @@ offset_top = -4639.0
 offset_right = 24.0
 offset_bottom = -4639.0
 metadata/_edit_use_anchors_ = true
+metadata/_edit_lock_ = true
 
 [node name="Personajes" type="Node" parent="."]
 
-[node name="Jugador" parent="Personajes" instance=ExtResource("1_alef4")]
-position = Vector2(918, 636)
-
 [node name="Jefe" parent="Personajes" instance=ExtResource("2_31dr3")]
-position = Vector2(252, 200)
+position = Vector2(-414, 782)
+
+[node name="Jugador" parent="Personajes" instance=ExtResource("1_alef4")]
+position = Vector2(727, 263)
+
+[node name="Conserje" parent="Personajes" instance=ExtResource("12_41ucn")]
+position = Vector2(-694, -244)
+
+[node name="Seguridad" parent="Personajes" instance=ExtResource("13_1s0ta")]
+position = Vector2(115, 814)
+
+[node name="Trab1" parent="Personajes" instance=ExtResource("14_jdid2")]
+position = Vector2(1000, -186)
+
+[node name="Trab2" parent="Personajes" instance=ExtResource("15_denuc")]
+position = Vector2(1494, 616)
+
+[node name="HUD" type="Node" parent="."]

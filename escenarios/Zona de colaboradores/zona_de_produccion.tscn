@@ -26215,7 +26215,7 @@ sources/2 = SubResource("TileSetAtlasSource_qnl6a")
 size = Vector2(160.5, 46)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0hucp"]
-size = Vector2(34, 94)
+size = Vector2(34, 67)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0o83d"]
 size = Vector2(114, 9)
@@ -32229,27 +32229,27 @@ position = Vector2(732, 768)
 shape = SubResource("RectangleShape2D_rjqhd")
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(1195, 585)
+position = Vector2(1195, 573)
 shape = SubResource("RectangleShape2D_0hucp")
 
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(281, 583)
+position = Vector2(280, 568.5)
 shape = SubResource("RectangleShape2D_0hucp")
 
 [node name="CollisionShape2D8" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(554, 586)
+position = Vector2(554, 574)
 shape = SubResource("RectangleShape2D_0hucp")
 
 [node name="CollisionShape2D9" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(599, 584)
+position = Vector2(599, 572)
 shape = SubResource("RectangleShape2D_0hucp")
 
 [node name="CollisionShape2D10" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(1242, 582)
+position = Vector2(1242, 570)
 shape = SubResource("RectangleShape2D_0hucp")
 
 [node name="CollisionShape2D11" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(1515, 581)
+position = Vector2(1515, 569)
 shape = SubResource("RectangleShape2D_0hucp")
 
 [node name="CollisionShape2D7" type="CollisionShape2D" parent="StaticBody2D"]

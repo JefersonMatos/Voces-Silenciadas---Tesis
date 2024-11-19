@@ -1,8 +1,26 @@
 res://raiz.tscn
+res://Jefe.dch
+res://escenarios/Oficina del Jefe/oficina_jefe.tscn
 res://escenarios/Zona de colaboradores/zona_de_produccion.tscn
-res://escenarios/TV Studio/TVStudio.tscn
-res://escenarios/Cuarto de vigilancia/cuarto_vigilancia.tscn
+res://Jugador/jugador.tscn
+res://Jugador/prota.gd
 res://escenarios/comedor/comedor.tscn
 res://escenarios/Sala conserje/sala_conserje.tscn
-res://escenarios/Sala de juntas/sala_juntas.tscn
-res://escenarios/Oficina del Jefe/oficina_jefe.tscn
+res://addons/block_code/blocks/communication/add_node_to_group.tres
+res://addons/block_code/blocks/communication/add_to_group.tres
+res://addons/block_code/blocks/communication/call_method_group.tres
+res://addons/block_code/blocks/communication/get_node.tres
+res://addons/block_code/blocks/communication/is_in_group.tres
+res://addons/block_code/blocks/communication/is_node_in_group.tres
+res://addons/block_code/blocks/communication/remove_from_group.tres
+res://addons/block_code/blocks/communication/remove_node_from_group.tres
+res://addons/block_code/blocks/graphics/animationplayer_play.tres
+res://addons/block_code/blocks/input/is_input_actioned.tres
+res://addons/block_code/blocks/logic/compare.tres
+res://addons/block_code/blocks/sounds/pause_continue_sound.tres
+res://area_2d.gd
+res://Personajes/Jefe/jefe.tscn
+res://Personajes/Traba2/trab_2.tscn
+res://Personajes/Traba1/trab_1.tscn
+res://Personajes/Seguridad/seguridad.tscn
+res://Personajes/Conserje/conserje.tscn
