@@ -1,8 +1,5 @@
-[wait time="2.0"]
 join Jefe right [animation="Slide In Left" length="2.0"]
 Jefe: *ingresa en épico*
-Jefe: *te mira lascivamente*
-Jefe: *que rico*
 Jefe: Primera vez que te veo por esta oficina, es tu primer día?
 - sí
 - no
@@ -10,7 +7,7 @@ Jefe: Bueno, tampoco es que importe mucho
 Disculpa que lo pregunte asi, pero hoy por hoy nunca se sabe con esto de la gente moderna...
 Jefe: quisiera saber si te consideras una mujer o un hombre  (es más que todo para que el juego lo sepa xd)
 - Mujer
-	Jefe: Yaraaa, *inserta sus dedos en ti*
+	Jefe: Yaraaa
 - Hombre
 	Jefe: Pucha, igual no nos dió tiempo de crear una versión del juego para el caso en que el personaje principal sea hombre..
 	así que de momento serás mujer, solo hasta que nos demos el tiempo de actualizar el juego (noo es nada fácil ok?)
