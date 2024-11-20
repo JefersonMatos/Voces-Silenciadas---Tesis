@@ -1,3 +1,7 @@
+CollisionShape2D
+StaticBody2D
+TileMapLayer
+CollisionPolygon2D
 ColorRect
 Label
 CanvasLayer
@@ -6,9 +10,5 @@ CheckBox
 Control
 VBoxContainer
 Node
-TileMapLayer
-CollisionShape2D
 Area2D
 BlockCode
-CollisionPolygon2D
-StaticBody2D

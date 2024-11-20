@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://cq45cjcq3lxa5"]
+[gd_scene load_steps=18 format=3 uid="uid://cq45cjcq3lxa5"]
 
 [ext_resource type="PackedScene" uid="uid://dxk2eg7pcb3tj" path="res://Jugador/jugador.tscn" id="1_alef4"]
 [ext_resource type="PackedScene" uid="uid://hcpwom7roipy" path="res://escenarios/Zona de colaboradores/zona_de_produccion.tscn" id="1_c58nd"]
@@ -10,7 +10,8 @@
 [ext_resource type="PackedScene" uid="uid://ok71dyq8ebtg" path="res://escenarios/Cuarto de vigilancia/cuarto_vigilancia.tscn" id="6_721na"]
 [ext_resource type="PackedScene" uid="uid://bpdmlhcknkj48" path="res://escenarios/TV Studio/TVStudio.tscn" id="6_h2qoe"]
 [ext_resource type="PackedScene" uid="uid://biam7c6bgdq44" path="res://menús/menu pausa/Menú pausa.tscn" id="7_blos7"]
-[ext_resource type="PackedScene" uid="uid://bcmiq3fhmcdch" path="res://escenarios/Oficina del jefe/oficina_jefe.tscn" id="7_viru4"]
+[ext_resource type="PackedScene" uid="uid://bcmiq3fhmcdch" path="res://escenarios/Oficina del Jefe/oficina_jefe.tscn" id="7_viru4"]
+[ext_resource type="PackedScene" uid="uid://ca1dcgpvops7m" path="res://escenarios/Almacen/Almacen.tscn" id="9_aqv6i"]
 [ext_resource type="PackedScene" uid="uid://tmhh11e7utvl" path="res://escenarios/Sala de juntas/sala_juntas.tscn" id="10_1mrna"]
 [ext_resource type="PackedScene" uid="uid://ctbdlj6gw15cy" path="res://Personajes/Conserje/conserje.tscn" id="12_41ucn"]
 [ext_resource type="PackedScene" uid="uid://w7fd3n0uef4w" path="res://Personajes/Seguridad/seguridad.tscn" id="13_1s0ta"]
@@ -40,6 +41,12 @@ metadata/_edit_lock_ = true
 [node name="OficinaJefe" parent="Escenarios" instance=ExtResource("7_viru4")]
 metadata/_edit_lock_ = true
 
+[node name="SalaJuntas" parent="Escenarios" instance=ExtResource("10_1mrna")]
+metadata/_edit_lock_ = true
+
+[node name="Almacen" parent="Escenarios" instance=ExtResource("9_aqv6i")]
+metadata/_edit_lock_ = true
+
 [node name="Menu" parent="Escenarios" instance=ExtResource("5_vtb4a")]
 offset_left = 33.0
 offset_top = -3471.0
@@ -54,8 +61,6 @@ offset_right = 24.0
 offset_bottom = -4639.0
 metadata/_edit_use_anchors_ = true
 metadata/_edit_lock_ = true
-
-[node name="SalaJuntas" parent="Escenarios" instance=ExtResource("10_1mrna")]
 
 [node name="Personajes" type="Node" parent="."]
 

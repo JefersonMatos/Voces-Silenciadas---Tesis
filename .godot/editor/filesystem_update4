@@ -11,11 +11,4 @@ res://addons/block_code/blocks/graphics/animationplayer_play.tres
 res://addons/block_code/blocks/input/is_input_actioned.tres
 res://addons/block_code/blocks/logic/compare.tres
 res://addons/block_code/blocks/sounds/pause_continue_sound.tres
-res://Jefe.dch
-res://Personajes/Traba2/trab_2.tscn
-res://Jugador/jugador.tscn
-res://area_2d.gd
-res://Personajes/Jefe/jefe.tscn
-res://raiz.gd
-res://timeline.dtl
-res://Personajes/Seguridad/seguridad.tscn
+res://escenarios/Almacen/Almacen.tscn
