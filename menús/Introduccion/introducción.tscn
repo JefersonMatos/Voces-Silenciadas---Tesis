@@ -1,0 +1,75 @@
+[gd_scene load_steps=7 format=3 uid="uid://cd0cmvmvcft2e"]
+
+[ext_resource type="Texture2D" uid="uid://b2ewdnvebgq7p" path="res://menús/Introduccion/Imagen de WhatsApp 2024-11-23 a las 18.55.41_8aed5437.jpg" id="1_p0h77"]
+[ext_resource type="FontFile" uid="uid://cc4xli25271fd" path="res://addons/dialogic/Example Assets/Fonts/Roboto-Bold.ttf" id="2_2w2xu"]
+[ext_resource type="Texture2D" uid="uid://bw8i4heetskyo" path="res://menús/Introduccion/right-chevron.png" id="3_xahkl"]
+[ext_resource type="Script" path="res://menús/Introduccion/button.gd" id="4_20pe8"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_23023"]
+font = ExtResource("2_2w2xu")
+font_size = 32
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yll4l"]
+
+[node name="Introducción" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="fondo intro" type="Sprite2D" parent="."]
+position = Vector2(959.714, 539.728)
+rotation = 1.5708
+scale = Vector2(1.46552, 1.73747)
+texture = ExtResource("1_p0h77")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.752941)
+
+[node name="texto" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -509.5
+offset_top = -101.0
+offset_right = 509.5
+offset_bottom = 101.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Bienvenid@ a Voces Silenciadas, recomendamos tomar  tanto el juego como las decisiones dentro del mismo tal cual como se haría en la vida real, para poder representar y evaluar el impacto del mismo. Esperamos que distrutes de la experiencia y le puedes dar click al botón abajo a la derecha de la pantalla para seguir con la siguiente pantalla."
+label_settings = SubResource("LabelSettings_23023")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+justification_flags = 235
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -268.0
+offset_top = -253.0
+offset_right = 252.0
+offset_bottom = 267.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(0.3, 0.3)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_yll4l")
+icon = ExtResource("3_xahkl")
+flat = true
+expand_icon = true
+script = ExtResource("4_20pe8")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

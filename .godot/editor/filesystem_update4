@@ -1,4 +1,4 @@
-res://raiz.tscn
+res://introducción.tscn
 res://addons/block_code/blocks/communication/add_node_to_group.tres
 res://addons/block_code/blocks/communication/add_to_group.tres
 res://addons/block_code/blocks/communication/call_method_group.tres
@@ -11,4 +11,11 @@ res://addons/block_code/blocks/graphics/animationplayer_play.tres
 res://addons/block_code/blocks/input/is_input_actioned.tres
 res://addons/block_code/blocks/logic/compare.tres
 res://addons/block_code/blocks/sounds/pause_continue_sound.tres
-res://escenarios/Almacen/Almacen.tscn
+res://area_2d.gd
+res://raiz.tscn
+res://menús/Introduccion/introducción.tscn
+res://Personajes/Jefe/jefe.tscn
+res://menús/menu principal/Menú.tscn
+res://menús/menu pausa/Menú pausa.tscn
+res://menús/Introduccion/button.gd
+res://menús/jugar.gd

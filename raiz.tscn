@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://cq45cjcq3lxa5"]
+[gd_scene load_steps=19 format=3 uid="uid://cq45cjcq3lxa5"]
 
 [ext_resource type="PackedScene" uid="uid://dxk2eg7pcb3tj" path="res://Jugador/jugador.tscn" id="1_alef4"]
 [ext_resource type="PackedScene" uid="uid://hcpwom7roipy" path="res://escenarios/Zona de colaboradores/zona_de_produccion.tscn" id="1_c58nd"]
@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://ca1dcgpvops7m" path="res://escenarios/Almacen/Almacen.tscn" id="9_aqv6i"]
 [ext_resource type="PackedScene" uid="uid://tmhh11e7utvl" path="res://escenarios/Sala de juntas/sala_juntas.tscn" id="10_1mrna"]
 [ext_resource type="PackedScene" uid="uid://ctbdlj6gw15cy" path="res://Personajes/Conserje/conserje.tscn" id="12_41ucn"]
+[ext_resource type="PackedScene" uid="uid://cd0cmvmvcft2e" path="res://menús/Introduccion/introducción.tscn" id="12_alk24"]
 [ext_resource type="PackedScene" uid="uid://w7fd3n0uef4w" path="res://Personajes/Seguridad/seguridad.tscn" id="13_1s0ta"]
 [ext_resource type="PackedScene" uid="uid://c1jiu4l6ujrvq" path="res://Personajes/Traba1/trab_1.tscn" id="14_jdid2"]
 [ext_resource type="PackedScene" uid="uid://nsluvm6heled" path="res://Personajes/Traba2/trab_2.tscn" id="15_denuc"]
@@ -52,7 +53,6 @@ offset_left = 33.0
 offset_top = -3471.0
 offset_right = 33.0
 offset_bottom = -3471.0
-metadata/_edit_lock_ = true
 
 [node name="MenuPausa" parent="Escenarios" instance=ExtResource("7_blos7")]
 offset_left = 24.0
@@ -60,7 +60,12 @@ offset_top = -4639.0
 offset_right = 24.0
 offset_bottom = -4639.0
 metadata/_edit_use_anchors_ = true
-metadata/_edit_lock_ = true
+
+[node name="Introducción" parent="Escenarios" instance=ExtResource("12_alk24")]
+offset_left = 2035.0
+offset_top = -3470.0
+offset_right = 3955.0
+offset_bottom = -2390.0
 
 [node name="Personajes" type="Node" parent="."]
 
