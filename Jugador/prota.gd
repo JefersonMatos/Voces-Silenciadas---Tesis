@@ -3,10 +3,10 @@ extends CharacterBody2D
 # vinculamos el character body con el AnimatedSprite2D2
 @onready var _animation_player = $AnimatedSprite2D3
 
+
 #Creamos la variable de velocidad
 var move_speed : int = 500
-
-
+	
 func _physics_process(_delta: float) -> void:
 	
 	# Cuando no se presionen las teclas el personaje se queda parado

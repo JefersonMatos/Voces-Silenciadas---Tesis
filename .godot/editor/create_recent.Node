@@ -1,3 +1,7 @@
+Timer
+Camera2D
+PhantomCamera2D
+ProgressBar
 Button
 Label
 Node
@@ -8,8 +12,3 @@ TileMapLayer
 CollisionPolygon2D
 ColorRect
 CanvasLayer
-HBoxContainer
-CheckBox
-VBoxContainer
-Area2D
-BlockCode

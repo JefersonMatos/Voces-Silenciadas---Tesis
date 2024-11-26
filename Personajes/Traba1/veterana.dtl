@@ -1,0 +1,17 @@
+join veterana right [animation="Slide In Left" length="1.0" wait="true"]
+veterana: Hola
+join jugador left [animation="Slide In Right" length="1.0" wait="true"]
+jugador: Hola, soy nueva aquí. Me alegra verte; pareces tener mucha experiencia en este lugar.
+veterana: (Sonríe) Sí, he trabajado aquí más tiempo del que me gustaría admitir. Pero bueno, bienvenida.
+jugador: ...
+- ¿Tienes algún consejo para alguien nuevo como yo?
+	veterana: Haz tu trabajo y mantén la cabeza baja. Aquí nadie aprecia a los curiosos.
+	jugador: (sorprendida) ¿Es un lugar complicado?
+	veterana: (Evadiendo) Digamos que no todos los problemas tienen solución.
+- Seguro que tienes muchas historias de este lugar.
+	veterana: Historias, sí, algunas. Pero nada que te interese. Mejor concéntrate en adaptarte.
+	jugador: No subestimes mi curiosidad. Podría aprender algo útil.
+	veterana: (Sonríe) Tal vez algún día, si te ganas mi confianza.
+- Gracias. Se nota que eres alguien confiable.
+	veterana: (Asiente) Gracias. Aquí la confianza es algo raro, pero igual, cuidado con lo que preguntas.
+	jugador: Entendido. Procuraré escuchar antes de hablar.

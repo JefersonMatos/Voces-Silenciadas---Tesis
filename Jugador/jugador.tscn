@@ -1948,6 +1948,7 @@ grow_vertical = 0
 color = Color(0, 0, 0, 0.772549)
 
 [node name="_E_ para interactuar" type="Label" parent="Camera2D/Control/CanvasLayer/E"]
+layout_mode = 0
 offset_left = -10.0
 offset_top = 4.0
 offset_right = 303.0

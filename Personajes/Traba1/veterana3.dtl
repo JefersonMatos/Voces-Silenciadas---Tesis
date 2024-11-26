@@ -1,0 +1,17 @@
+join jugador left [animation="Slide In Left" length="1.0" wait="true"]
+jugador: Parece que algo te preocupa desde hace días. ¿Quieres hablar de ello?
+join veterana right [animation="Slide In Left" length="1.0" wait="true"]
+veterana: (Suspira) He visto demasiadas cosas en esta oficina. Hubo un tiempo en que intenté hacer algo, pero las cosas no salieron bien.
+jugador: ...
+- ¿Qué intentaste hacer?
+	veterana: Hace años, reporté algo sobre el jefe. Pero Seguridad lo manejó de tal forma que terminé siendo yo la culpable.  
+	jugador: Eso es horrible. ¿Alguien más intentó apoyarte?  
+	veterana: Nadie quiso arriesgarse. En este lugar, el miedo gobierna. 
+- ¿Por qué no funcionó?
+	veterana: (Susurrando) Aquí todo está controlado. Las cámaras, los informes… Todo puede ser manipulado. 
+	jugador: ¿Cómo puedes soportarlo?  
+	veterana: No es fácil, pero me consuela saber que tal vez alguien más logre lo que yo no pude.  
+- Debe haber sido difícil para ti. ¿Qué puedo hacer para ayudarte?
+	veterana: Tal vez puedas cambiar lo que yo no pude. Pero ten cuidado, ellos siempre están observando.  
+	jugador: ¿Qué puedo hacer para empezar?  
+	veterana: (Mira alrededor) Aprende a escuchar, observar… y nunca confíes en las apariencias.  

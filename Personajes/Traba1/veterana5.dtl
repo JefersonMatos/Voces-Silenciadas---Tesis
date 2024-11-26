@@ -1,0 +1,15 @@
+join veterana right [animation="Slide In Left" length="1.0" wait="true"]
+veterana: Escucha, confío en ti. Lo que ocurre aquí no puede seguir. Tienes que ser más lista que ellos.  
+join jugador left [animation="Slide In Left" length="1.0" wait="true"]
+jugador: ...
+- ¿Qué debo hacer para que esta lista no crezca?
+	veterana: Aprende de nuestros errores. Nunca dejes que sepan lo que sabes hasta que tengas pruebas sólidas.  
+	jugador: Entendido. ¿Hay algo más que deba saber?  
+	veterana: Sí. El jefe tiene aliados, pero también enemigos. Aprende a distinguirlos.
+- Voy a necesitar toda tu ayuda.
+	veterana: Tendrás mi apoyo, pero actúa con cuidado. Si fallas, este lugar te consumirá.  
+	jugador: No me detendré hasta que se haga justicia.
+	veterana: Entonces, tal vez aún haya esperanza.
+- Gracias por confiar en mí. No te decepcionaré.
+	veterana: No me decepciones. Pero recuerda\: aquí no hay lugar para errores. 
+	jugador: Lo haré bien, lo prometo.  

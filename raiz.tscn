@@ -87,4 +87,17 @@ position = Vector2(1000, -186)
 [node name="Trab2" parent="Personajes" instance=ExtResource("15_denuc")]
 position = Vector2(1494, 616)
 
-[node name="HUD" type="Node" parent="."]
+[node name="cam_1" type="Camera2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(988, -2929)
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+
+[node name="Timer" type="Timer" parent="."]
+process_mode = 3
+process_callback = 0
+wait_time = 4.0
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

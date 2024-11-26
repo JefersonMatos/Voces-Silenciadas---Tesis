@@ -1,3 +1,5 @@
+res://Personajes/Traba1
+res://Jugador
 res://menús/Introduccion
 res://
 res://escenarios/Materiales
@@ -10,6 +12,5 @@ res://escenarios/Sala de juntas
 res://escenarios/TV Studio/material
 res://escenarios/Cuarto de vigilancia
 res://Personajes/Jefe
-res://Jugador
 res://Jugador/material
 res://escenarios/comedor/material

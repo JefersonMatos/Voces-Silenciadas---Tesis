@@ -1,0 +1,17 @@
+join jugador left [animation="Slide In Left" length="1.0" wait="true"]
+jugador: ¿Todo bien? Te ves pensativa.
+join veterana right [animation="Slide In Right" length="1.0" wait="true"]
+veterana: Solo pensando en cómo las cosas nunca cambian aquí, aunque deberían.
+jugador: ...
+- ¿Te refieres a algo en específico?
+	veterana: (Mira alrededor, bajando la voz) ¿Es obvio? Digamos que este lugar tiene secretos oscuros, y algunos prefieren mirar hacia otro lado.
+	jugador: ¿Y tú? ¿También miras hacia otro lado?
+	veterana: (Suspira) Lo hacía… hasta que me afectó personalmente.
+- No siempre es fácil cambiar las cosas, pero no es imposible.
+	veterana: Tal vez tengas razón, pero no es tan simple cuando los riesgos son altos.
+	jugador: ¿Qué pasó cuando intentaste cambiar las cosas?
+	veterana: Aprendí que no puedes enfrentarte sola a personas con tanto poder.
+- Si necesitas desahogarte, estoy aquí para escucharte.
+	veterana: Gracias, pero no sé si estoy lista para hablar de eso contigo.
+	jugador: Entiendo. Solo quiero que sepas que no estás sola.
+	veterana: (Asiente lentamente) Aprecio eso más de lo que imaginas.

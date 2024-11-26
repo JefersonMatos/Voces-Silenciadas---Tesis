@@ -1,5 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://cd0cmvmvcft2e"]
+[gd_scene load_steps=8 format=3 uid="uid://cd0cmvmvcft2e"]
 
+[ext_resource type="Script" path="res://menús/Introduccion/introducción.gd" id="1_ibhis"]
 [ext_resource type="Texture2D" uid="uid://b2ewdnvebgq7p" path="res://menús/Introduccion/Imagen de WhatsApp 2024-11-23 a las 18.55.41_8aed5437.jpg" id="1_p0h77"]
 [ext_resource type="FontFile" uid="uid://cc4xli25271fd" path="res://addons/dialogic/Example Assets/Fonts/Roboto-Bold.ttf" id="2_2w2xu"]
 [ext_resource type="Texture2D" uid="uid://bw8i4heetskyo" path="res://menús/Introduccion/right-chevron.png" id="3_xahkl"]
@@ -16,6 +17,7 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
+script = ExtResource("1_ibhis")
 
 [node name="fondo intro" type="Sprite2D" parent="."]
 position = Vector2(959.714, 539.728)
@@ -72,4 +74,20 @@ flat = true
 expand_icon = true
 script = ExtResource("4_20pe8")
 
+[node name="ProgressBar" type="ProgressBar" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -354.0
+offset_top = -208.0
+offset_right = 354.0
+offset_bottom = -156.0
+grow_horizontal = 2
+grow_vertical = 0
+
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[connection signal="value_changed" from="ProgressBar" to="." method="_on_progress_bar_value_changed"]

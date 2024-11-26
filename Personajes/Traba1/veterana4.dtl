@@ -1,0 +1,12 @@
+join veterana right [animation="Slide In Left" length="1.0" wait="true"]
+veterana: Dejé algo importante en el cuarto del conserje, pero estoy ocupada ahora. ¿Podrías ir por mí?  
+join jugador left [animation="Slide In Left" length="1.0" wait="true"]
+jugador:  Claro, dime qué es.  
+\#### *Objetivo\:*  \
+- Encuentra el documento en el cuarto del conserje.  \
+- Descubre una lista de nombres que parecen ser empleados vinculados a incidentes pasados.  
+\#### *Diálogo al regresar\:*  
+jugador: Aquí tienes. Esto parece importante.  
+veterana: (Revisando el documento) Sí, lo es. Gracias.  
+jugador: Noté algo curioso en la lista de nombres. ¿Qué significa?  
+veterana: (Mira fijamente) Esas son las personas que alguna vez intentaron cambiar las cosas… Y no les fue bien.  

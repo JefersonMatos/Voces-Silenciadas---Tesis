@@ -1,4 +1,4 @@
-res://introducción.tscn
+res://menús/Introduccion/introducción.tscn
 res://addons/block_code/blocks/communication/add_node_to_group.tres
 res://addons/block_code/blocks/communication/add_to_group.tres
 res://addons/block_code/blocks/communication/call_method_group.tres
@@ -11,11 +11,23 @@ res://addons/block_code/blocks/graphics/animationplayer_play.tres
 res://addons/block_code/blocks/input/is_input_actioned.tres
 res://addons/block_code/blocks/logic/compare.tres
 res://addons/block_code/blocks/sounds/pause_continue_sound.tres
-res://area_2d.gd
+res://menús/Introduccion/introducción.gd
 res://raiz.tscn
-res://menús/Introduccion/introducción.tscn
 res://Personajes/Jefe/jefe.tscn
 res://menús/menu principal/Menú.tscn
-res://menús/menu pausa/Menú pausa.tscn
+res://global.gd
+res://Jugador/jugador.tscn
 res://menús/Introduccion/button.gd
 res://menús/jugar.gd
+res://Jugador/prota.gd
+res://raiz.gd
+res://Jefe.dch
+res://Personajes/Traba1/veterana.dtl
+res://Personajes/Traba1/veterana.dch
+res://Jugador/{nombre}.dch
+res://Jugador/jugador.dch
+res://Personajes/Traba1/trab_1.tscn
+res://Personajes/Traba1/veterana2.dtl
+res://Personajes/Traba1/veterana3.dtl
+res://Personajes/Traba1/veterana4.dtl
+res://Personajes/Traba1/veterana5.dtl
