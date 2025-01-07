@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://cq45cjcq3lxa5"]
+[gd_scene load_steps=21 format=3 uid="uid://cq45cjcq3lxa5"]
 
 [ext_resource type="PackedScene" uid="uid://dxk2eg7pcb3tj" path="res://Jugador/jugador.tscn" id="1_alef4"]
 [ext_resource type="PackedScene" uid="uid://hcpwom7roipy" path="res://escenarios/Zona de colaboradores/zona_de_produccion.tscn" id="1_c58nd"]
@@ -18,6 +18,8 @@
 [ext_resource type="PackedScene" uid="uid://w7fd3n0uef4w" path="res://Personajes/Seguridad/seguridad.tscn" id="13_1s0ta"]
 [ext_resource type="PackedScene" uid="uid://c1jiu4l6ujrvq" path="res://Personajes/Traba1/trab_1.tscn" id="14_jdid2"]
 [ext_resource type="PackedScene" uid="uid://nsluvm6heled" path="res://Personajes/Traba2/trab_2.tscn" id="15_denuc"]
+[ext_resource type="PackedScene" uid="uid://dqwa2r4w2wpst" path="res://Personajes/Traba3/traba_3.tscn" id="19_n7w78"]
+[ext_resource type="AudioStream" uid="uid://cbhwg0ax8np4e" path="res://Loneliness-8-bit-Relaxing-music.wav" id="20_4io3u"]
 
 [node name="raiz" type="Node2D"]
 script = ExtResource("1_xex2q")
@@ -82,10 +84,14 @@ position = Vector2(-694, -244)
 position = Vector2(115, 814)
 
 [node name="Trab1" parent="Personajes" instance=ExtResource("14_jdid2")]
-position = Vector2(1000, -186)
+position = Vector2(430, 385)
 
 [node name="Trab2" parent="Personajes" instance=ExtResource("15_denuc")]
 position = Vector2(1494, 616)
+
+[node name="traba3" parent="Personajes" instance=ExtResource("19_n7w78")]
+position = Vector2(498, 592)
+scale = Vector2(1.5, 1.5)
 
 [node name="cam_1" type="Camera2D" parent="."]
 unique_name_in_owner = true
@@ -99,5 +105,10 @@ process_callback = 0
 wait_time = 4.0
 one_shot = true
 autostart = true
+
+[node name="Loneliness-8-bit-relaxing-music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20_4io3u")
+volume_db = -22.545
+autoplay = true
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

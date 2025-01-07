@@ -25,11 +25,18 @@ global="*res://global.gd"
 
 directories/dch_directory={
 "Jefe": "res://Jefe.dch",
+"conserje": "res://Personajes/Conserje/conserje.dch",
 "jugador": "res://Jugador/jugador.dch",
+"traba_2": "res://Personajes/Traba2/traba_2.dch",
+"traba_3": "res://Personajes/Traba3/traba_3.dch",
 "veterana": "res://Personajes/Traba1/veterana.dch"
 }
 directories/dtl_directory={
+"conserje_1": "res://Personajes/Conserje/conserje_1.dtl",
+"conserje_2": "res://Personajes/Conserje/conserje_2.dtl",
 "timeline": "res://timeline.dtl",
+"traba2_1": "res://Personajes/Traba2/traba2_1.dtl",
+"traba3_1": "res://Personajes/Traba3/traba3_1.dtl",
 "veterana": "res://Personajes/Traba1/veterana.dtl",
 "veterana2": "res://Personajes/Traba1/veterana2.dtl",
 "veterana3": "res://Personajes/Traba1/veterana3.dtl",
@@ -43,8 +50,8 @@ layout/style_list=[]
 layout/default_style="Default"
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
-text/letter_speed=0.01
-text/initial_text_reveal_skippable=false
+text/letter_speed=0.03
+text/initial_text_reveal_skippable=true
 text/text_reveal_skip_delay=0.1
 text/advance_delay=0.1
 text/autoadvance_per_character_delay=0.1

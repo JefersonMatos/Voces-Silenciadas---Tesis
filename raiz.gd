@@ -2,6 +2,7 @@ extends Node2D
 
 @onready var cam = $cam_1
 
+"res://Loneliness 8-bit Relaxing music.mp3"
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	

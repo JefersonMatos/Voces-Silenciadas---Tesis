@@ -1,12 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732574653
-area_2d.gd::GDScript::-1::1732406040::0::1::::<>Area2D<>::
+::res://::1736274645
+area_2d.gd::GDScript::-1::1732883490::0::1::::<>Area2D<>::
 global.gd::GDScript::-1::1732567702::0::1::::<>Node<>::
 icon.svg::CompressedTexture2D::1011551773841215470::1732405109::1732405364::1::::<><>::
-Jefe.dch::Resource/DialogicCharacter::-1::1732574585::0::1::::<><>::
-raiz.gd::GDScript::-1::1732571315::0::1::::<>Node2D<>::
-raiz.tscn::PackedScene::5957555378397860754::1732571776::0::1::::<><>::uid://dxk2eg7pcb3tj::::res://Jugador/jugador.tscn<>uid://hcpwom7roipy::::res://escenarios/Zona de colaboradores/zona_de_produccion.tscn<>res://raiz.gd<>uid://c345cylv5v5qi::::res://Personajes/Jefe/jefe.tscn<>uid://b00htlqfa3mnv::::res://escenarios/comedor/comedor.tscn<>uid://d3wwx4d5lgawt::::res://escenarios/Sala conserje/sala_conserje.tscn<>uid://bukp82yo8vbo0::::res://menús/menu principal/Menú.tscn<>uid://ok71dyq8ebtg::::res://escenarios/Cuarto de vigilancia/cuarto_vigilancia.tscn<>uid://bpdmlhcknkj48::::res://escenarios/TV Studio/TVStudio.tscn<>uid://biam7c6bgdq44::::res://menús/menu pausa/Menú pausa.tscn<>uid://bcmiq3fhmcdch::::res://escenarios/Oficina del Jefe/oficina_jefe.tscn<>uid://ca1dcgpvops7m::::res://escenarios/Almacen/Almacen.tscn<>uid://tmhh11e7utvl::::res://escenarios/Sala de juntas/sala_juntas.tscn<>uid://ctbdlj6gw15cy::::res://Personajes/Conserje/conserje.tscn<>uid://cd0cmvmvcft2e::::res://menús/Introduccion/introducción.tscn<>uid://w7fd3n0uef4w::::res://Personajes/Seguridad/seguridad.tscn<>uid://c1jiu4l6ujrvq::::res://Personajes/Traba1/trab_1.tscn<>uid://nsluvm6heled::::res://Personajes/Traba2/trab_2.tscn
-timeline.dtl::Resource/DialogicTimeline::-1::1732405109::0::1::::<><>::
+Jefe.dch::Resource/DialogicCharacter::-1::1732876867::0::1::::<><>::
+Loneliness 8-bit Relaxing music.mp3::AudioStreamMP3::1432516638069076357::1732878900::1732878917::1::::<><>::
+Loneliness-8-bit-Relaxing-music.wav::AudioStreamWAV::4858828658080341234::1732879726::1732882447::1::::<><>::
+raiz.gd::GDScript::-1::1732879630::0::1::::<>Node2D<>::
+raiz.tscn::PackedScene::5957555378397860754::1732886180::0::1::::<><>::uid://dxk2eg7pcb3tj::::res://Jugador/jugador.tscn<>uid://hcpwom7roipy::::res://escenarios/Zona de colaboradores/zona_de_produccion.tscn<>res://raiz.gd<>uid://c345cylv5v5qi::::res://Personajes/Jefe/jefe.tscn<>uid://b00htlqfa3mnv::::res://escenarios/comedor/comedor.tscn<>uid://d3wwx4d5lgawt::::res://escenarios/Sala conserje/sala_conserje.tscn<>uid://bukp82yo8vbo0::::res://menús/menu principal/Menú.tscn<>uid://ok71dyq8ebtg::::res://escenarios/Cuarto de vigilancia/cuarto_vigilancia.tscn<>uid://bpdmlhcknkj48::::res://escenarios/TV Studio/TVStudio.tscn<>uid://biam7c6bgdq44::::res://menús/menu pausa/Menú pausa.tscn<>uid://bcmiq3fhmcdch::::res://escenarios/Oficina del Jefe/oficina_jefe.tscn<>uid://ca1dcgpvops7m::::res://escenarios/Almacen/Almacen.tscn<>uid://tmhh11e7utvl::::res://escenarios/Sala de juntas/sala_juntas.tscn<>uid://ctbdlj6gw15cy::::res://Personajes/Conserje/conserje.tscn<>uid://cd0cmvmvcft2e::::res://menús/Introduccion/introducción.tscn<>uid://w7fd3n0uef4w::::res://Personajes/Seguridad/seguridad.tscn<>uid://c1jiu4l6ujrvq::::res://Personajes/Traba1/trab_1.tscn<>uid://nsluvm6heled::::res://Personajes/Traba2/trab_2.tscn<>uid://dqwa2r4w2wpst::::res://Personajes/Traba3/traba_3.tscn<>uid://cbhwg0ax8np4e::::res://Loneliness-8-bit-Relaxing-music.wav
+timeline.dtl::Resource/DialogicTimeline::-1::1732876845::0::1::::<><>::
 UI_32x32.png::CompressedTexture2D::2515937816924839975::1732405108::1732405364::1::::<><>::
 ::res://addons/::1732405109
 ::res://addons/block_code/::1732405108
@@ -14,37 +16,37 @@ block_code_plugin.gd::GDScript::-1::1732405108::0::1::::<>EditorPlugin<>::
 plugin.cfg::TextFile::-1::1732405108::0::1::::<><>::
 README.md::TextFile::-1::1732405108::0::1::::<><>::
 ::res://addons/block_code/blocks/::1732405108
-::res://addons/block_code/blocks/communication/::1732559415
-add_node_to_group.tres::Resource::3482857291981802988::1732559414::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/blocks/communication/groups.gd
-add_to_group.tres::Resource::3896210527295315103::1732559414::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/groups.gd
+::res://addons/block_code/blocks/communication/::1732883211
+add_node_to_group.tres::Resource::3482857291981802988::1732883210::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/blocks/communication/groups.gd
+add_to_group.tres::Resource::3896210527295315103::1732883210::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/groups.gd
 area2d_on_entered.tres::Resource::7500549744140157813::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 area2d_on_exited.tres::Resource::4416523451285068971::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
-call_method_group.tres::Resource::6660991787196180967::1732559415::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/groups.gd
+call_method_group.tres::Resource::6660991787196180967::1732883210::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/groups.gd
 call_method_node.tres::Resource::6588029720122788115::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 define_method.tres::Resource::2282779991017754424::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 get_node.gd::GDScript::-1::1732405108::0::1::::<>BlockExtension<>::
-get_node.tres::Resource::4800594916032852966::1732559415::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/get_node.gd
+get_node.tres::Resource::4800594916032852966::1732883210::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/get_node.gd
 groups.gd::GDScript::-1::1732405108::0::1::::<>BlockExtension<>::
-is_in_group.tres::Resource::1183034077407548708::1732559415::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/groups.gd
-is_node_in_group.tres::Resource::2496056146303379842::1732559415::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/groups.gd<>res://addons/block_code/code_generation/option_data.gd
-remove_from_group.tres::Resource::7589482843094211982::1732559415::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/groups.gd<>res://addons/block_code/code_generation/option_data.gd
-remove_node_from_group.tres::Resource::4289067957479110738::1732559415::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/blocks/communication/groups.gd<>res://addons/block_code/code_generation/block_definition.gd
+is_in_group.tres::Resource::1183034077407548708::1732883210::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/groups.gd
+is_node_in_group.tres::Resource::2496056146303379842::1732883211::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/groups.gd<>res://addons/block_code/code_generation/option_data.gd
+remove_from_group.tres::Resource::7589482843094211982::1732883211::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/communication/groups.gd<>res://addons/block_code/code_generation/option_data.gd
+remove_node_from_group.tres::Resource::4289067957479110738::1732883211::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/blocks/communication/groups.gd<>res://addons/block_code/code_generation/block_definition.gd
 rigidbody2d_on_entered.tres::Resource::7986416380818849661::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 rigidbody2d_on_exited.tres::Resource::6661161732786972297::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
-::res://addons/block_code/blocks/graphics/::1732559415
+::res://addons/block_code/blocks/graphics/::1732883211
 animationplayer_is_playing.tres::Resource::856457535465087492::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 animationplayer_pause.tres::Resource::163963452427677524::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 animationplayer_play.gd::GDScript::-1::1732405108::0::1::::<>BlockExtension<>::
-animationplayer_play.tres::Resource::6888345882233234685::1732559415::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/blocks/graphics/animationplayer_play.gd
+animationplayer_play.tres::Resource::6888345882233234685::1732883211::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/blocks/graphics/animationplayer_play.gd
 animationplayer_stop.tres::Resource::4466812423222359975::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 viewport_center.tres::Resource::1888597152707292242::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 viewport_height.tres::Resource::2623564341801279529::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 viewport_width.tres::Resource::3788072958993865939::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
-::res://addons/block_code/blocks/input/::1732559415
+::res://addons/block_code/blocks/input/::1732883211
 characterbody2d_is_on_floor.tres::Resource::4874486037859154100::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 characterbody2d_move.tres::Resource::6235490391367802920::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 is_input_actioned.gd::GDScript::-1::1732405108::0::1::::<>BlockExtension<>::
-is_input_actioned.tres::Resource::2380822131969425198::1732559415::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/input/is_input_actioned.gd
+is_input_actioned.tres::Resource::2380822131969425198::1732883211::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd<>res://addons/block_code/blocks/input/is_input_actioned.gd
 ::res://addons/block_code/blocks/lifecycle/::1732405108
 process.tres::Resource::5281535666692834108::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 queue_free.tres::Resource::2050527233356629569::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
@@ -53,9 +55,9 @@ ready.tres::Resource::7626140243482588444::1732405108::0::1::::<><>::res://addon
 breakpoint.tres::Resource::2604682403962654776::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 concat.tres::Resource::4908282648148500752::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 print.tres::Resource::2422943763898395159::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
-::res://addons/block_code/blocks/logic/::1732559415
+::res://addons/block_code/blocks/logic/::1732883211
 and.tres::Resource::8927994610505802424::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
-compare.tres::Resource::1089788577812062816::1732559415::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd
+compare.tres::Resource::1089788577812062816::1732883211::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd
 else.tres::Resource::8225936911131122443::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 else_if.tres::Resource::4134622490543955118::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 if.tres::Resource::6431413227491426196::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
@@ -80,11 +82,11 @@ subtract.tres::Resource::7902003920289290156::1732405108::0::1::::<><>::res://ad
 tan.tres::Resource::3190359701969102937::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 ::res://addons/block_code/blocks/physics/::1732405108
 characterbody2d_move_and_slide.tres::Resource::5889689252664196627::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
-::res://addons/block_code/blocks/sounds/::1732559415
+::res://addons/block_code/blocks/sounds/::1732883211
 audiostreamplayer_play.tres::Resource::4019911997753544297::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 audiostreamplayer_stop.tres::Resource::565209469754041465::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 load_sound.tres::Resource::5764071385672560715::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
-pause_continue_sound.tres::Resource::1575335310020799224::1732559415::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd
+pause_continue_sound.tres::Resource::1575335310020799224::1732883211::0::1::::<><>::res://addons/block_code/code_generation/option_data.gd<>res://addons/block_code/code_generation/block_definition.gd
 play_sound.tres::Resource::8546147537432696576::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 stop_sound.tres::Resource::6050433353874148540::1732405108::0::1::::<><>::res://addons/block_code/code_generation/block_definition.gd
 ::res://addons/block_code/blocks/transform/::1732405108
@@ -1046,11 +1048,11 @@ Tv_Studio_Design_layer_3_32x32.png::CompressedTexture2D::1729080308580259273::17
 Tv_Studio_Design_preview_32x32.png::CompressedTexture2D::3139451445592856266::1732405109::1732405362::1::::<><>::
 ::res://escenarios/Zona de colaboradores/::1732405109
 zona_de_produccion.tscn::PackedScene::496401458673517238::1732405109::0::1::::<><>::uid://fso3drdrs0u7::::res://escenarios/Room_Builder_32x32.png<>uid://c5x1ninpkrltf::::res://escenarios/Sala conserje/material/Room_Builder_Office_32x32.png<>uid://b3g7pkajvmm3o::::res://escenarios/Sala conserje/material/Interiors_free_32x32.png<>uid://ct6m7c7oltca8::::res://escenarios/Sala conserje/material/Modern_Office_Black_Shadow_32x32.png<>uid://bf6hx8ojrlvmc::::res://escenarios/18_Jail_32x32.png<>uid://tglrkg7nkkcl::::res://escenarios/Sala conserje/material/Modern_Office_MV_1_TILESETS_B-C-D-E.png
-::res://Jugador/::1732574778
+::res://Jugador/::1732886180
 _370589E1-BD09-4C4B-8026-B84EDA581944_-removebg-preview.png::CompressedTexture2D::9220417383256116775::1732574778::1732574780::1::::<><>::
-jugador.tscn::PackedScene::8795896099533078407::1732571776::0::1::::<><>::res://Jugador/prota.gd<>uid://b7rlkslxh1ptx::::res://Jugador/material/Caminar frente.png<>uid://qxyn14uhcvo3::::res://Jugador/material/Caminar atras.png<>uid://m1seuklmpj2i::::res://Jugador/material/Caminar derecha.png<>uid://ckk52wpnxpt8j::::res://Jugador/material/Caminar izquierda.png<>uid://b4ld45m4bd7k8::::res://Jugador/material/Cell guardar.png<>uid://cw4pjm6ll1t2l::::res://Jugador/material/Cell Sacar.png<>uid://iwwc0smyxh17::::res://Jugador/material/Correr atras.png<>uid://b0ketiofjmgr4::::res://Jugador/material/Correr derecha.png<>uid://bwr71q40lbkm4::::res://Jugador/material/Correr frente.png<>uid://b3b8e18dj54u0::::res://Jugador/material/Correr izquierda.png<>uid://lbu84jcnandy::::res://Jugador/material/IDLE atras.png<>uid://61sq4x88nvsa::::res://Jugador/material/IDLE derecha.png<>uid://d3vlbyg16eugr::::res://Jugador/material/IDLE frente.png<>uid://bh8vp4sjy7eq0::::res://Jugador/material/IDLE izquierda.png<>uid://dtislra1p45au::::res://Jugador/material/Lamento atras.png<>uid://btvkexwkeaj67::::res://Jugador/material/Lamento derecha.png<>uid://dt2q8ur1ujv68::::res://Jugador/material/Lamento frente.png<>uid://ct5t75t1y3db0::::res://Jugador/material/Lamento izquierda.png<>uid://mqww1v1tkhqs::::res://Jugador/material/Objeto atras.png<>uid://dn06fdycttarn::::res://Jugador/material/Objeto derecha.png<>uid://du4ajclkf1fin::::res://Jugador/material/Objeto frente.png<>uid://ea3va4k2hwgc::::res://Jugador/material/Objeto izquierda.png<>uid://d2noettl35djr::::res://Jugador/material/Recoger atras.png<>uid://cblkppewmekxl::::res://Jugador/material/Recoger derecha.png<>uid://c8a4fsbf0erty::::res://Jugador/material/Recoger frente.png<>uid://cpuuflehmj67g::::res://Jugador/material/Recoger izquierda.png<>uid://dkvge72xvxig2::::res://Jugador/material/Sentado derecha.png<>uid://ctlf0xmhsh702::::res://Jugador/material/Sentado izquierda.png<>res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd<>res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd<>res://addons/phantom_camera/scripts/resources/tween_resource.gd<>uid://ke5wbp5jdgy4::::res://menús/nasalization-rg.otf
+jugador.dch::Resource/DialogicCharacter::-1::1732876657::0::1::::<><>::
+jugador.tscn::PackedScene::8795896099533078407::1732886180::0::1::::<><>::res://Jugador/prota.gd<>uid://b7rlkslxh1ptx::::res://Jugador/material/Caminar frente.png<>uid://qxyn14uhcvo3::::res://Jugador/material/Caminar atras.png<>uid://m1seuklmpj2i::::res://Jugador/material/Caminar derecha.png<>uid://ckk52wpnxpt8j::::res://Jugador/material/Caminar izquierda.png<>uid://b4ld45m4bd7k8::::res://Jugador/material/Cell guardar.png<>uid://cw4pjm6ll1t2l::::res://Jugador/material/Cell Sacar.png<>uid://iwwc0smyxh17::::res://Jugador/material/Correr atras.png<>uid://b0ketiofjmgr4::::res://Jugador/material/Correr derecha.png<>uid://bwr71q40lbkm4::::res://Jugador/material/Correr frente.png<>uid://b3b8e18dj54u0::::res://Jugador/material/Correr izquierda.png<>uid://lbu84jcnandy::::res://Jugador/material/IDLE atras.png<>uid://61sq4x88nvsa::::res://Jugador/material/IDLE derecha.png<>uid://d3vlbyg16eugr::::res://Jugador/material/IDLE frente.png<>uid://bh8vp4sjy7eq0::::res://Jugador/material/IDLE izquierda.png<>uid://dtislra1p45au::::res://Jugador/material/Lamento atras.png<>uid://btvkexwkeaj67::::res://Jugador/material/Lamento derecha.png<>uid://dt2q8ur1ujv68::::res://Jugador/material/Lamento frente.png<>uid://ct5t75t1y3db0::::res://Jugador/material/Lamento izquierda.png<>uid://mqww1v1tkhqs::::res://Jugador/material/Objeto atras.png<>uid://dn06fdycttarn::::res://Jugador/material/Objeto derecha.png<>uid://du4ajclkf1fin::::res://Jugador/material/Objeto frente.png<>uid://ea3va4k2hwgc::::res://Jugador/material/Objeto izquierda.png<>uid://d2noettl35djr::::res://Jugador/material/Recoger atras.png<>uid://cblkppewmekxl::::res://Jugador/material/Recoger derecha.png<>uid://c8a4fsbf0erty::::res://Jugador/material/Recoger frente.png<>uid://cpuuflehmj67g::::res://Jugador/material/Recoger izquierda.png<>uid://dkvge72xvxig2::::res://Jugador/material/Sentado derecha.png<>uid://ctlf0xmhsh702::::res://Jugador/material/Sentado izquierda.png<>res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd<>res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd<>res://addons/phantom_camera/scripts/resources/tween_resource.gd<>uid://ke5wbp5jdgy4::::res://menús/nasalization-rg.otf<>uid://cbhwg0ax8np4e::::res://Loneliness-8-bit-Relaxing-music.wav
 prota.gd::GDScript::-1::1732570757::0::1::::<>CharacterBody2D<>::
-jugador.dch::Resource/DialogicCharacter::-1::1732574652::0::1::::<><>::
 ::res://Jugador/material/::1732405363
 Caminar atras.png::CompressedTexture2D::1171984021023649804::1732405108::1732405362::1::::<><>::
 Caminar derecha.png::CompressedTexture2D::897041060738832346::1732405108::1732405362::1::::<><>::
@@ -1084,22 +1086,26 @@ Sentado izquierda.png::CompressedTexture2D::6129487008532050981::1732405108::173
 ::res://menús/::1732569467
 jugar.gd::GDScript::-1::1732569467::0::1::::<>Control<>::
 nasalization-rg.otf::FontFile::712006821716096397::1732405109::1732405362::1::::<><>::
-::res://menús/Introduccion/::1732571776
+::res://menús/Introduccion/::1732879396
 arrow-right (1).png::CompressedTexture2D::4363590401839858232::1732408274::1732408275::1::::<><>::
 arrow-right.png::CompressedTexture2D::7736543490698329558::1732408141::1732408143::1::::<><>::
 button.gd::GDScript::-1::1732569382::0::1::::<>Button<>::
 Imagen de WhatsApp 2024-11-23 a las 18.55.41_8aed5437.jpg::CompressedTexture2D::4291118819586569487::1732406196::1732406377::1::::<><>::
 introducción.gd::GDScript::-1::1732561486::0::1::::<>Control<>::
-introducción.tscn::PackedScene::5035161328149227342::1732571776::0::1::::<><>::res://menús/Introduccion/introducción.gd<>uid://b2ewdnvebgq7p::::res://menús/Introduccion/Imagen de WhatsApp 2024-11-23 a las 18.55.41_8aed5437.jpg<>uid://cc4xli25271fd::::res://addons/dialogic/Example Assets/Fonts/Roboto-Bold.ttf<>uid://bw8i4heetskyo::::res://menús/Introduccion/right-chevron.png<>res://menús/Introduccion/button.gd
+introducción.tscn::PackedScene::5035161328149227342::1732879396::0::1::::<><>::res://menús/Introduccion/introducción.gd<>uid://b2ewdnvebgq7p::::res://menús/Introduccion/Imagen de WhatsApp 2024-11-23 a las 18.55.41_8aed5437.jpg<>uid://cc4xli25271fd::::res://addons/dialogic/Example Assets/Fonts/Roboto-Bold.ttf<>uid://bw8i4heetskyo::::res://menús/Introduccion/right-chevron.png<>res://menús/Introduccion/button.gd
 right-chevron.png::CompressedTexture2D::3999237607629680422::1732408336::1732408337::1::::<><>::
 ::res://menús/menu pausa/::1732410952
 Menú pausa.tscn::PackedScene::2948717335104742415::1732410952::0::1::::<><>::res://menús/jugar.gd<>uid://ke5wbp5jdgy4::::res://menús/nasalization-rg.otf
-::res://menús/menu principal/::1732571776
+::res://menús/menu principal/::1732879396
 MENU FONDO.png::CompressedTexture2D::5009236957654722927::1732405109::1732405363::1::::<><>::
-Menú.tscn::PackedScene::3811812475971486961::1732571776::0::1::::<><>::uid://cdmrnvmm07nql::::res://menús/menu principal/MENU FONDO.png<>res://menús/jugar.gd<>uid://ke5wbp5jdgy4::::res://menús/nasalization-rg.otf
+Menú.tscn::PackedScene::3811812475971486961::1732879396::0::1::::<><>::uid://cdmrnvmm07nql::::res://menús/menu principal/MENU FONDO.png<>res://menús/jugar.gd<>uid://ke5wbp5jdgy4::::res://menús/nasalization-rg.otf
 ::res://Personajes/::1732405108
-::res://Personajes/Conserje/::1732405108
-conserje.tscn::PackedScene::6108696089876287236::1732405108::0::1::::<><>::res://area_2d.gd<>uid://bb30emjgv34pf::::res://UI_32x32.png
+::res://Personajes/Conserje/::1732886181
+conserje.dch::Resource/DialogicCharacter::-1::1732877015::0::1::::<><>::
+conserje.tscn::PackedScene::6108696089876287236::1732886181::0::1::::<><>::res://area_2d.gd<>uid://bb30emjgv34pf::::res://UI_32x32.png
+conserje_1.dtl::Resource/DialogicTimeline::-1::1732885045::0::1::::<><>::
+conserje_2.dtl::Resource/DialogicTimeline::-1::1732884722::0::1::::<><>::
+image-removebg-preview (2).png::CompressedTexture2D::2620439835027260165::1732876970::1732876971::1::::<><>::
 ::res://Personajes/Conserje/material/::1732405365
 Caminar atras.png::CompressedTexture2D::1798607566022874455::1732405108::1732405362::1::::<><>::
 Caminar derecha.png::CompressedTexture2D::4968222019286963517::1732405108::1732405362::1::::<><>::
@@ -1120,9 +1126,9 @@ Libro leer.png::CompressedTexture2D::1494185505939907849::1732405108::1732405364
 Sentado derecha.png::CompressedTexture2D::5160155788872717010::1732405108::1732405364::1::::<><>::
 Sentado izquierda.png::CompressedTexture2D::8370930913444900837::1732405108::1732405364::1::::<><>::
 YARA.jpg::CompressedTexture2D::6617808856337248119::1732405108::1732405362::0::::<><>::
-::res://Personajes/Jefe/::1732571776
+::res://Personajes/Jefe/::1732886181
 aa63b8ce-58f1-4bff-8263-53a730484aa9-removebg-preview.png::CompressedTexture2D::4237558598615103708::1732405108::1732405365::1::::<><>::
-jefe.tscn::PackedScene::6799822304037992712::1732571776::0::1::::<><>::res://area_2d.gd<>uid://bb30emjgv34pf::::res://UI_32x32.png
+jefe.tscn::PackedScene::6799822304037992712::1732886181::0::1::::<><>::res://area_2d.gd<>uid://bb30emjgv34pf::::res://UI_32x32.png
 ::res://Personajes/Jefe/material/::1732405365
 Caminar atras.png::CompressedTexture2D::1960261393942107706::1732405108::1732405364::1::::<><>::
 Caminar derecha.png::CompressedTexture2D::8272768500396365853::1732405108::1732405364::1::::<><>::
@@ -1140,8 +1146,8 @@ Lamento frente.png::CompressedTexture2D::460896825769993110::1732405108::1732405
 Lamento izquierda.png::CompressedTexture2D::4442306075431458519::1732405108::1732405364::1::::<><>::
 Sentado derecha.png::CompressedTexture2D::93287376346844833::1732405108::1732405364::1::::<><>::
 Sentado izquierda.png::CompressedTexture2D::1908812484912492599::1732405108::1732405364::1::::<><>::
-::res://Personajes/Seguridad/::1732405108
-seguridad.tscn::PackedScene::1610525082411210052::1732405108::0::1::::<><>::uid://b7vo7ie2iyr7k::::res://Personajes/Seguridad/material/Caminar atras.png<>uid://bix52uyrxfy30::::res://Personajes/Seguridad/material/Caminar derecha.png<>uid://dbelbdjv0rynx::::res://Personajes/Seguridad/material/Caminar frente.png<>uid://b2yy5ald54qer::::res://Personajes/Seguridad/material/Caminar izquierda.png<>uid://b72isvvnn04l::::res://Personajes/Seguridad/material/Cell guardar.png<>uid://tb5tyy8yvwi8::::res://Personajes/Seguridad/material/Cell Sacar.png<>uid://dgwgdlwjeo5hl::::res://Personajes/Seguridad/material/IDLE atras.png<>uid://ifibsb31jfqp::::res://Personajes/Seguridad/material/IDLE derecha.png<>uid://8am5gks74um0::::res://Personajes/Seguridad/material/Lamento derecha.png<>uid://c6hpk3otxkeuc::::res://Personajes/Seguridad/material/Lamento frente.png<>uid://04fibm80rf3::::res://Personajes/Seguridad/material/Lamento izquierda.png<>uid://kl527vg0bfm7::::res://Personajes/Seguridad/material/Sentado derecha.png<>uid://dcky2bav1btqd::::res://Personajes/Seguridad/material/Sentado izquierda.png<>res://area_2d.gd<>uid://bb30emjgv34pf::::res://UI_32x32.png
+::res://Personajes/Seguridad/::1732886182
+seguridad.tscn::PackedScene::1610525082411210052::1732886182::0::1::::<><>::uid://b7vo7ie2iyr7k::::res://Personajes/Seguridad/material/Caminar atras.png<>uid://bix52uyrxfy30::::res://Personajes/Seguridad/material/Caminar derecha.png<>uid://dbelbdjv0rynx::::res://Personajes/Seguridad/material/Caminar frente.png<>uid://b2yy5ald54qer::::res://Personajes/Seguridad/material/Caminar izquierda.png<>uid://b72isvvnn04l::::res://Personajes/Seguridad/material/Cell guardar.png<>uid://tb5tyy8yvwi8::::res://Personajes/Seguridad/material/Cell Sacar.png<>uid://dgwgdlwjeo5hl::::res://Personajes/Seguridad/material/IDLE atras.png<>uid://ifibsb31jfqp::::res://Personajes/Seguridad/material/IDLE derecha.png<>uid://8am5gks74um0::::res://Personajes/Seguridad/material/Lamento derecha.png<>uid://c6hpk3otxkeuc::::res://Personajes/Seguridad/material/Lamento frente.png<>uid://04fibm80rf3::::res://Personajes/Seguridad/material/Lamento izquierda.png<>uid://kl527vg0bfm7::::res://Personajes/Seguridad/material/Sentado derecha.png<>uid://dcky2bav1btqd::::res://Personajes/Seguridad/material/Sentado izquierda.png<>res://area_2d.gd<>uid://bb30emjgv34pf::::res://UI_32x32.png
 ::res://Personajes/Seguridad/material/::1732405365
 Caminar atras.png::CompressedTexture2D::4676723223853509806::1732405108::1732405364::1::::<><>::
 Caminar derecha.png::CompressedTexture2D::2997282935704833129::1732405108::1732405364::1::::<><>::
@@ -1159,11 +1165,15 @@ Lamento izquierda.png::CompressedTexture2D::53379587933178530::1732405108::17324
 Seguridad.png::CompressedTexture2D::4243701244529417390::1732405108::1732405365::1::::<><>::
 Sentado derecha.png::CompressedTexture2D::726468031387571300::1732405108::1732405364::1::::<><>::
 Sentado izquierda.png::CompressedTexture2D::7321788993670093623::1732405108::1732405364::1::::<><>::
-::res://Personajes/Traba1/::1732574617
+::res://Personajes/Traba1/::1732886181
 _D09D791F-D1FD-4E5A-9480-BB8D34172ED0_-removebg-preview.png::CompressedTexture2D::3574699063984854842::1732574431::1732574452::1::::<><>::
-trab_1.tscn::PackedScene::6616853695187413446::1732405108::0::1::::<><>::uid://cdjxbkxs4kgmn::::res://Personajes/Traba1/material/Cachetada atras.png<>uid://btrp0bvovj0si::::res://Personajes/Traba1/material/Cachetada frente.png<>uid://cvx5rd1ryjvm8::::res://Personajes/Traba1/material/Cachetada izquierda.png<>uid://dd34d77k20ok1::::res://Personajes/Traba1/material/Caminar atras.png<>uid://djie2o0hwu3f::::res://Personajes/Traba1/material/Caminar derecha.png<>uid://cm61bfn28p4xb::::res://Personajes/Traba1/material/Caminar frente.png<>uid://duwexxyqerd32::::res://Personajes/Traba1/material/Caminar izquierda.png<>uid://cihvrap0igerv::::res://Personajes/Traba1/material/Cell guardar.png<>uid://dsbrd6xun5rs3::::res://Personajes/Traba1/material/Cell Sacar.png<>uid://cayqg24oyou1j::::res://Personajes/Traba1/material/IDLE atras.png<>uid://btck87vk40mn2::::res://Personajes/Traba1/material/IDLE derecha.png<>uid://wta1t7n7xlr8::::res://Personajes/Traba1/material/IDLE frente.png<>uid://b2yep7bro1c62::::res://Personajes/Traba1/material/IDLE izquierda.png<>uid://b4eqcof8m2qw4::::res://Personajes/Traba1/material/Lamento frente.png<>uid://ou5wcgna6olq::::res://Personajes/Traba1/material/Sentado derecha.png<>uid://besj7wyaj7ggj::::res://Personajes/Traba1/material/Sentado izquierda.png<>res://area_2d.gd<>uid://bb30emjgv34pf::::res://UI_32x32.png
-veterana.dch::Resource/DialogicCharacter::-1::1732574617::0::1::::<><>::
-veterana.dtl::Resource/DialogicTimeline::-1::1732574583::0::1::::<><>::
+trab_1.tscn::PackedScene::6616853695187413446::1732886181::0::1::::<><>::uid://cdjxbkxs4kgmn::::res://Personajes/Traba1/material/Cachetada atras.png<>uid://btrp0bvovj0si::::res://Personajes/Traba1/material/Cachetada frente.png<>uid://cvx5rd1ryjvm8::::res://Personajes/Traba1/material/Cachetada izquierda.png<>uid://dd34d77k20ok1::::res://Personajes/Traba1/material/Caminar atras.png<>uid://djie2o0hwu3f::::res://Personajes/Traba1/material/Caminar derecha.png<>uid://cm61bfn28p4xb::::res://Personajes/Traba1/material/Caminar frente.png<>uid://duwexxyqerd32::::res://Personajes/Traba1/material/Caminar izquierda.png<>uid://cihvrap0igerv::::res://Personajes/Traba1/material/Cell guardar.png<>uid://dsbrd6xun5rs3::::res://Personajes/Traba1/material/Cell Sacar.png<>uid://cayqg24oyou1j::::res://Personajes/Traba1/material/IDLE atras.png<>uid://btck87vk40mn2::::res://Personajes/Traba1/material/IDLE derecha.png<>uid://wta1t7n7xlr8::::res://Personajes/Traba1/material/IDLE frente.png<>uid://b2yep7bro1c62::::res://Personajes/Traba1/material/IDLE izquierda.png<>uid://b4eqcof8m2qw4::::res://Personajes/Traba1/material/Lamento frente.png<>uid://ou5wcgna6olq::::res://Personajes/Traba1/material/Sentado derecha.png<>uid://besj7wyaj7ggj::::res://Personajes/Traba1/material/Sentado izquierda.png<>res://area_2d.gd<>uid://bb30emjgv34pf::::res://UI_32x32.png
+veterana2.dtl::Resource/DialogicTimeline::-1::1732576582::0::1::::<><>::
+veterana3.dtl::Resource/DialogicTimeline::-1::1732884307::0::1::::<><>::
+veterana4.dtl::Resource/DialogicTimeline::-1::1732885693::0::1::::<><>::
+veterana5.dtl::Resource/DialogicTimeline::-1::1732577108::0::1::::<><>::
+veterana.dch::Resource/DialogicCharacter::-1::1732882594::0::1::::<><>::
+veterana.dtl::Resource/DialogicTimeline::-1::1732576573::0::1::::<><>::
 ::res://Personajes/Traba1/material/::1732405364
 Cachetada atras.png::CompressedTexture2D::5003386136335365597::1732405108::1732405364::1::::<><>::
 Cachetada derecha.png::CompressedTexture2D::6414717926531585529::1732405108::1732405364::1::::<><>::
@@ -1183,8 +1193,11 @@ Lamento frente.png::CompressedTexture2D::4431130448251762113::1732405108::173240
 Sentado derecha.png::CompressedTexture2D::1025792278169972822::1732405108::1732405363::1::::<><>::
 Sentado izquierda.png::CompressedTexture2D::2704939648760462461::1732405108::1732405363::1::::<><>::
 Traba1.png::CompressedTexture2D::709171765779371053::1732405108::1732405364::1::::<><>::
-::res://Personajes/Traba2/::1732405108
-trab_2.tscn::PackedScene::950318492612054567::1732405108::0::1::::<><>::uid://cfo7hb6k56kvs::::res://Personajes/Traba2/material/Cachetada atras.png<>uid://dggy1lntrbwes::::res://Personajes/Traba2/material/Cachetada derecha.png<>uid://cuiiltw4o4i20::::res://Personajes/Traba2/material/Cachetada frente.png<>uid://8ecne5g0ne3k::::res://Personajes/Traba2/material/Caminar atras.png<>uid://c35uv3ca4g7i0::::res://Personajes/Traba2/material/Caminar derecha.png<>uid://bmuihfdlorwik::::res://Personajes/Traba2/material/Caminar frente.png<>uid://ksflykp8ek1u::::res://Personajes/Traba2/material/Caminar izquierda.png<>uid://dhsi731ev6dhn::::res://Personajes/Traba2/material/Cell guardar.png<>uid://crmx2xv6lvm6f::::res://Personajes/Traba2/material/Cell Sacar.png<>uid://dtblbyyob5bke::::res://Personajes/Traba2/material/IDLE atras.png<>uid://c3r51g4yav77u::::res://Personajes/Traba2/material/IDLE derecha.png<>uid://djrw3niw50at2::::res://Personajes/Traba2/material/IDLE frente.png<>uid://b0clja8pdpoky::::res://Personajes/Traba2/material/IDLE izquierda.png<>uid://chltc7a12nd6a::::res://Personajes/Traba2/material/Lamento frente.png<>uid://cctrtvfeprn34::::res://Personajes/Traba2/material/Sentado izquierda.png<>res://area_2d.gd<>uid://bb30emjgv34pf::::res://UI_32x32.png
+::res://Personajes/Traba2/::1732886182
+image-removebg-preview (3).png::CompressedTexture2D::3660737421983522958::1732877595::1732877596::1::::<><>::
+traba2_1.dtl::Resource/DialogicTimeline::-1::1732885451::0::1::::<><>::
+traba_2.dch::Resource/DialogicCharacter::-1::1732885178::0::1::::<><>::
+trab_2.tscn::PackedScene::950318492612054567::1732886182::0::1::::<><>::uid://cfo7hb6k56kvs::::res://Personajes/Traba2/material/Cachetada atras.png<>uid://dggy1lntrbwes::::res://Personajes/Traba2/material/Cachetada derecha.png<>uid://cuiiltw4o4i20::::res://Personajes/Traba2/material/Cachetada frente.png<>uid://8ecne5g0ne3k::::res://Personajes/Traba2/material/Caminar atras.png<>uid://c35uv3ca4g7i0::::res://Personajes/Traba2/material/Caminar derecha.png<>uid://bmuihfdlorwik::::res://Personajes/Traba2/material/Caminar frente.png<>uid://ksflykp8ek1u::::res://Personajes/Traba2/material/Caminar izquierda.png<>uid://dhsi731ev6dhn::::res://Personajes/Traba2/material/Cell guardar.png<>uid://crmx2xv6lvm6f::::res://Personajes/Traba2/material/Cell Sacar.png<>uid://dtblbyyob5bke::::res://Personajes/Traba2/material/IDLE atras.png<>uid://c3r51g4yav77u::::res://Personajes/Traba2/material/IDLE derecha.png<>uid://djrw3niw50at2::::res://Personajes/Traba2/material/IDLE frente.png<>uid://b0clja8pdpoky::::res://Personajes/Traba2/material/IDLE izquierda.png<>uid://chltc7a12nd6a::::res://Personajes/Traba2/material/Lamento frente.png<>uid://cctrtvfeprn34::::res://Personajes/Traba2/material/Sentado izquierda.png<>res://area_2d.gd<>uid://bb30emjgv34pf::::res://UI_32x32.png
 ::res://Personajes/Traba2/material/::1732405364
 Cachetada atras.png::CompressedTexture2D::5154642419367024092::1732405108::1732405363::1::::<><>::
 Cachetada derecha.png::CompressedTexture2D::7594285616625143210::1732405108::1732405363::1::::<><>::
@@ -1204,7 +1217,11 @@ Lamento frente.png::CompressedTexture2D::5288030304562581122::1732405108::173240
 Sentado derecha.png::CompressedTexture2D::7579523938951885813::1732405108::1732405364::1::::<><>::
 Sentado izquierda.png::CompressedTexture2D::4953509461867471553::1732405108::1732405364::1::::<><>::
 Traba2.png::CompressedTexture2D::489046095522351669::1732405108::1732405364::1::::<><>::
-::res://Personajes/Traba3/::1732405108
+::res://Personajes/Traba3/::1732886181
+image-removebg-preview (1).png::CompressedTexture2D::7852034679364203756::1732862217::1732862217::1::::<><>::
+traba3_1.dtl::Resource/DialogicTimeline::-1::1732865726::0::1::::<><>::
+traba_3.dch::Resource/DialogicCharacter::-1::1732867154::0::1::::<><>::
+traba_3.tscn::PackedScene::8327749015045392147::1732886181::0::1::::<><>::uid://uetqyj4kbb72::::res://Personajes/Traba3/material/Caminar.png<>uid://dq2ci46rh4bvr::::res://Personajes/Traba3/material/IDL.png<>uid://datg6dw0pt031::::res://Personajes/Traba3/material/Sentada.png<>res://area_2d.gd<>uid://bb30emjgv34pf::::res://UI_32x32.png
 ::res://Personajes/Traba3/material/::1732405364
 Cachetada.png::CompressedTexture2D::9180109897078326176::1732405108::1732405364::1::::<><>::
 Caminar.png::CompressedTexture2D::1413217855136603367::1732405108::1732405364::1::::<><>::

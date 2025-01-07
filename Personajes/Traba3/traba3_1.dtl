@@ -1,0 +1,8 @@
+join traba_3 right [animation="Slide In Left" length="1.0" wait="true"]
+traba_3: Hola, espero que la pases bien con todos en la oficina, si tienes alguna consulta puedes venir a mi
+join jugador left [animation="Slide In Left" length="1.0" wait="true"]
+jugador: Hola, un gusto conocerte, muchas gracias
+traba_3: Me disculparás, justo en este momento me encuentro ocupada, te aviso apenas me desocupe por si tienes alguna duda
+Ok no hay problema, seguiré viendo el ambiente
+leave traba_3 [animation="Slide Out Right" length="1.0" wait="true"]
+[wait time="2.0" skippable="true"]

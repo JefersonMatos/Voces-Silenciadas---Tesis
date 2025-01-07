@@ -1,3 +1,7 @@
+AudioStreamPlayer2D
+AudioStreamPlayer
+AnimatedSprite2D
+CharacterBody2D
 Timer
 Camera2D
 PhantomCamera2D
@@ -9,6 +13,3 @@ Control
 CollisionShape2D
 StaticBody2D
 TileMapLayer
-CollisionPolygon2D
-ColorRect
-CanvasLayer

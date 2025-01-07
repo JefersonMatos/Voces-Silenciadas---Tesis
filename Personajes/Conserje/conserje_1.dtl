@@ -1,0 +1,61 @@
+join conserje right [animation="Slide In Left" length="1.0" wait="true"]
+conserje: Buenas buenas, veo que eres la nueva que se comentaba que había llegado a la oficina
+conserje: Mientras no dejes todo tu sitio sucio y trates de cuidar un poco todo nos llevaremos bien
+join jugador left [animation="Slide In Left" length="1.0"]
+jugador: Hola, ¿eres el encargado de esta área?
+conserje: (Sin mirarla) Sí, todo lo que ves aquí pasa por mis manos. ¿Qué necesitas?
+- Solo estoy explorando, no quise molestarte.
+	conserje: Mientras no toques nada, no es molestia.
+	jugador: Entendido. Pero, ¿te importa si te hago algunas preguntas?
+	conserje: (Duda) Depende de qué quieras saber.
+- Buscaba a alguien que conoce bien este lugar. ¿Es cierto que llevas mucho tiempo aquí?
+	conserje: Mucho tiempo, sí. Demasiado, diría yo. Pero aquí sigo, haciendo lo mío.
+	jugador: Debes haber visto de todo en este lugar.
+	conserje: (Ríe amargamente) Sí, de todo… aunque no todo es bueno.
+- ¿Tienes algún consejo para alguien nuevo aquí?
+	conserje: Consejo… No llames la atención y haz lo que te pidan. Así es como sobrevives aquí.
+	jugador: ¿Tan complicado es este lugar?
+	conserje: (Mira alrededor) Lo descubrirás pronto.
+conserje: Oye, ya que estás aquí… ¿Te importa ayudarme? Tengo que entregar estos productos al estudio, pero me quedé atascado con otras cosas. Además que perdí mi llavero
+jugador: Claro, ¿qué necesitas exactamente?
+\#### *Objetivo\:*  \
+- Lleva una caja de suministros al estudio de grabación.  \
+- En el camino, escucha a dos empleados hablando en voz baja sobre el jefe y su comportamiento extraño.
+leave --All-- [animation="Fade Out" length="1.0"]
+[wait time="15.0"]
+join jugador left [animation="Slide In Left" length="1.0" wait="true"]
+jugador: Aquí está todo. Parece que tenías muchas cosas pendientes.
+join conserje right [animation="Slide In Left" length="1.0" wait="true"]
+conserje: (Suspira) Gracias. Esto me ahorra un problema.
+jugador: ¿Te pasa seguido?
+conserje: Más de lo que quisiera. Aquí siempre hay “favores” que hacer.
+jugador: En el camino encontré esto. Pensé que podría ser tuyo. (le entrega el llavero)
+conserje: (Mira el objeto) Sí, gracias. No todos se molestan en devolver cosas aquí.
+- Parece que mantienes todo bajo control aquí.
+conserje: Alguien tiene que hacerlo. Si dejo que esto se descontrole, no hay quien lo arregle.
+jugador: Suena como una gran responsabilidad.
+conserje: (Suspira) Lo es, pero no por elección.
+- ¿Cómo es que sabes tanto de este lugar?
+conserje: Veo cosas, escucho cosas… Este trabajo te da acceso a todo, quieras o no.
+jugador: ¿Y nunca te has metido en problemas por eso?
+conserje: (Sonríe) He aprendido a quedarme callado.
+- ¿Alguna vez has pensado en dejar este trabajo?
+conserje: Muchas veces, pero no siempre es fácil encontrar algo mejor. Este lugar te atrapa.
+jugador: Tal vez puedas salir algún día.
+conserje: (Mira al suelo) Tal vez…
+jugador: También vi algo extraño por allí… ¿Sabías que guardan archivos de empleados en su oficina?
+conserje: (Nervioso) No preguntes demasiado. Es mejor para ti.
+jugador: ¿Todo bien? Pareces preocupado.
+conserje: (Suspira) Hay cosas que quisiera olvidar, pero este lugar no me lo permite.
+- ¿Qué tipo de cosas?
+	conserje: Cosas que vi, cosas que sé… Aquí nadie es inocente, ni siquiera yo.
+	jugador: ¿Se puede saber qué hiciste?
+	conserje: (Evade la mirada) Callé cuando no debía.
+- Si necesitas hablar, estoy aquí para escucharte.
+	conserje: Agradezco la oferta, pero no sé si podrías entenderlo.
+	jugador: Tal vez no, pero me importa lo que tienes que decir.
+	jugador: (Suspira) Está bien. Pero necesitas prometer que no harás preguntas equivocadas.
+- ¿Por qué sigues aquí si te afecta tanto?
+	conserje: Porque no tengo otro lugar a dónde ir. Este trabajo es lo único que conozco.
+	Tal vez pueda cambiar eso algún día.
+	conserje: (Sonríe levemente) No pierdas esa esperanza.

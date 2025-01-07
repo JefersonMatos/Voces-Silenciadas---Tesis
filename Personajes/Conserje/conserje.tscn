@@ -1739,6 +1739,7 @@ polygon = PackedVector2Array(0.322581, -8.33333, 1.6129, -9.58333, 3.54839, -7.9
 
 [node name="Area2D" type="Area2D" parent="."]
 script = ExtResource("1_ym8f8")
+dialogo_id = "conserje_1"
 
 [node name="interactuar" type="TileMapLayer" parent="Area2D"]
 tile_map_data = PackedByteArray(0, 0, 1, 0, 253, 255, 0, 0, 18, 0, 1, 0, 0, 0, 1, 0, 254, 255, 0, 0, 18, 0, 2, 0, 0, 0, 1, 0, 255, 255, 0, 0, 18, 0, 3, 0, 0, 0, 2, 0, 253, 255, 0, 0, 19, 0, 1, 0, 0, 0, 2, 0, 254, 255, 0, 0, 19, 0, 2, 0, 0, 0)

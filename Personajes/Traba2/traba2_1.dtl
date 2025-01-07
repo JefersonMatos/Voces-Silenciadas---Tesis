@@ -1,0 +1,11 @@
+join traba_2 right [animation="Slide In Left" length="1.0" wait="true"]
+traba_2: (Con los ojos llorosos) Hola, espero que tengas un lindo primer día, aquí estoy para lo que necesites
+join jugador left [animation="Slide In Left" length="1.0" wait="true"]
+jugador: Hola, ¿te encuentras bien?
+jugador: Parece que hubieras estado llorando por algo
+traba_2: (tratando de disimular) No te preocupes, en serio, solo son problemas personales
+jugador: Está bien, me iré a ver al jefe para conversar con él, hasta luego
+traba_2: (EXALTADA) Con el Jefe??
+jugador: Sí, por qué?
+traba_2: Nada nada, solo recuerda que cualquier cosa quye quieras hablar estpy aquí y prometo no juzgarte, debemos estar unidas.
+jugador: (Extrañada) ok, te agradezco la amabilidad

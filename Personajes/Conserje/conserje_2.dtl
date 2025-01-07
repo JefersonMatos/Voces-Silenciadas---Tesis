@@ -1,0 +1,25 @@
+join jugador left [animation="Slide In Left" length="1.0" wait="true"]
+jugador: Aquí está todo. Parece que tenías muchas cosas pendientes.
+join conserje right [animation="Slide In Left" length="1.0" wait="true"]
+conserje: (Suspira) Gracias. Esto me ahorra un problema.
+jugador: ¿Te pasa seguido?
+conserje: Más de lo que quisiera. Aquí siempre hay “favores” que hacer.
+jugador: En el camino encontré esto. Pensé que podría ser tuyo. (le entrega el llavero)
+conserje: (Mira el objeto) Sí, gracias. No todos se molestan en devolver cosas aquí.
+- Parece que mantienes todo bajo control aquí.
+	conserje: Alguien tiene que hacerlo. Si dejo que esto se descontrole, no hay quien lo arregle.
+	jugador: Suena como una gran responsabilidad.
+	conserje: (Suspira) Lo es, pero no por elección.
+- ¿Cómo es que sabes tanto de este lugar?
+	conserje: Veo cosas, escucho cosas… Este trabajo te da acceso a todo, quieras o no.
+	jugador: ¿Y nunca te has metido en problemas por eso?
+	conserje: (Sonríe) He aprendido a quedarme callado.
+- ¿Alguna vez has pensado en dejar este trabajo?
+	conserje: Muchas veces, pero no siempre es fácil encontrar algo mejor. Este lugar te atrapa.
+	jugador: Tal vez puedas salir algún día.
+	conserje: (Mira al suelo) Tal vez…
+jugador: También vi algo extraño por allí… ¿Sabías que guardan archivos de empleados en su oficina?  
+conserje: (Nervioso) No preguntes demasiado. Es mejor para ti.  
+jugador: ¿Todo bien? Pareces preocupado.  
+conserje: (Suspira) Hay cosas que quisiera olvidar, pero este lugar no me lo permite.  \
+

@@ -1,4 +1,4 @@
-[gd_scene load_steps=278 format=3 uid="uid://dxk2eg7pcb3tj"]
+[gd_scene load_steps=279 format=3 uid="uid://dxk2eg7pcb3tj"]
 
 [ext_resource type="Script" path="res://Jugador/prota.gd" id="1_6h7m3"]
 [ext_resource type="Texture2D" uid="uid://b7rlkslxh1ptx" path="res://Jugador/material/Caminar frente.png" id="2_iqp1k"]
@@ -33,6 +33,7 @@
 [ext_resource type="Script" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd" id="31_yo5yv"]
 [ext_resource type="Script" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="32_fltj2"]
 [ext_resource type="FontFile" uid="uid://ke5wbp5jdgy4" path="res://menús/nasalization-rg.otf" id="33_uwarc"]
+[ext_resource type="AudioStream" uid="uid://cbhwg0ax8np4e" path="res://Loneliness-8-bit-Relaxing-music.wav" id="34_f20rm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yra1s"]
 atlas = ExtResource("2_iqp1k")
@@ -1956,3 +1957,6 @@ offset_bottom = 40.0
 text = "\"E\" para interactuar"
 label_settings = SubResource("LabelSettings_oe2wj")
 horizontal_alignment = 1
+
+[node name="Loneliness-8-bit-relaxing-music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("34_f20rm")
